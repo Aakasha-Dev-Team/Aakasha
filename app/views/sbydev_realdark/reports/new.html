@@ -1,0 +1,174 @@
+<div class="wrap-fluid" style="width: auto; margin-left: 250px;">
+    <div class="container-fluid paper-wrap bevel tlbr log_table">
+        <!--TITLE -->
+        <div class="row">
+            <div id="paper-top">
+                <div class="col-sm-12">
+                    <h2 class="tittle-content-header">
+                        <i class="icon-document-edit"></i>
+                        <span>{Reports}</span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <!--/ TITLE -->
+        <!-- BREADCRUMB -->
+        <ul id="breadcrumb">
+            <li>
+                <span class="entypo-home"></span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="/" title="Home">{Home}</a>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="#" title="{History}">{Reports}</a>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="#" title="Invoice generation">{New}</a>
+            </li>
+        </ul>
+        <!-- END OF BREADCRUMB -->
+        <div class="row" style="padding:0 30px;">
+            <div class="col-sm-12">
+                <div class="nest" id="inlineClose">
+                    <div class="title-alt">
+                        <h6>{New}</h6>
+                        <!--
+                        <div class="titleClose">
+                            <a class="gone" href="#inlineClose">
+                                <span class="entypo-cancel"></span>
+                            </a>
+                        </div> -->
+                        <div class="titleToggle">
+                            <a class="nav-toggle-alt" href="#inline">
+                                <span class="entypo-up-open"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="body-nest" id="inline">
+                        <div class="orders_dates simple_info_table" style="width:100%; clear:both">
+                            <div class="form_center" style="width:80%;">
+
+                                <!-- IF {success} -->
+                                    <div class="alert alert-success" role="alert">{success}</div>
+                                <!-- END -->
+
+                                <!-- IF {error} -->
+                                    <div class="alert alert-warning" role="alert">{error}</div>
+                                <!-- END -->
+
+                                <form id="report-details" class="form-horizontal" method="post" action="/reports/save">
+                                    <div class="form-group">
+                                        <label for="name" class="col-sm-2 control-label">{Name}</label>
+                                        <div class="col-sm-6">
+                                            <input type="text" name="name" class="form-control" id="name" placeholder="{Type name}">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="timeframe" class="col-sm-2 control-label">{timeframe}</label>
+                                        <div class="col-sm-6">
+                                            <select id="timeframe" name="timeframe" class="form-control">
+                                                <option value=""></option>
+                                                <option value="today">{today}</option>
+                                                <option value="last_day">{last_day}</option>
+                                                <option value="current_month">{current_month}</option>
+                                                <option value="last_month">{last_month}</option>
+                                                <option value="current_year">{current_year}</option>
+                                                <option value="last_year">{last_year}</option>
+                                                <option value="custom">{custom}</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div id="custom_frame" class="form-group hidden">
+                                        <label class="col-sm-2 control-label">{custom_date}</label>
+                                        <div class="col-sm-6">
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <input type="text" data-format="yyyy-MM-dd" class="form-control" name="from_date" id="from_date" placeholder="{from_date}">
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <input type="text" data-format="yyyy-MM-dd" class="form-control" name="to_date" id="to_date" placeholder="{to_date}">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="type" class="col-sm-2 control-label">{type}</label>
+                                        <div class="col-sm-6">
+                                            <select id="type" name="type[]" class="form-control" multiple>
+                                                <option value=""></option>
+                                                <optgroup label="{orders}">
+                                                    <option value="orders">{order_all}</option>
+                                                    <option value="order_active">{order_active}</option>
+                                                    <option value="order_inactive">{order_inactive}</option>
+                                                </optgroup>
+                                                <optgroup label="{groups}">
+                                                    <!--<option value="groups_all">{groups_all}</option>-->
+                                                    <option value="groups_custom">{groups_custom}</option>
+                                                </optgroup>
+                                                <optgroup label="{items}">
+                                                    <!--<option value="items_all">{groups_all}</option>-->
+                                                    <option value="items_custom">{items_custom}</option>
+                                                </optgroup>
+                                                <optgroup label="{clients}">
+                                                    <option value="clients_orders">{user_orders}</option>
+                                                    <option value="clients_items">{user_items}</option>
+                                                </optgroup>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div id="item_field" class="form-group hidden">
+                                        <label class="col-sm-2 control-label">{custom_data}</label>
+                                        <div class="col-sm-6">
+                                            <input type="text" class="form-control" name="item">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="chart" class="col-sm-2 control-label">{chart}</label>
+                                        <div class="col-sm-6">
+                                            <select id="chart" name="chart" class="form-control">
+                                                <option value="bar">Bar</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-sm-offset-2 col-sm-6">
+                                            <a id="generate" href="#" class="btn btn-default">{generate}</a>
+                                            <button type="submit" class="btn btn-default">{save}</button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                                <!--<div class="col-sm-6 col-sm-offset-2">-->
+                                    <dl class="dl-horizontal">
+                                        <dt>{unit}</dt>
+                                        <dd>{unit-note}</dd>
+                                    </dl>
+                                <!--</div>-->
+
+                                <!--Chart-->
+                                <div id="chartdiv" style="width: 100%; height: 400px;"></div>
+
+                                <!--<div class="clearfix"></div>-->
+                                <div class="test"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

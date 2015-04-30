@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="bg">
+    <head>
+        <meta charset="utf-8">
+        <title>{head_title}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Le styles -->
+        <link rel="stylesheet" type="text/css" href="{path_template}css/loader-style.css">
+        <link rel="stylesheet" type="text/css" href="{path_template}css/signin.css">
+        <link rel="stylesheet" type="text/css" href="{path_template}css/style.css">
+        <link rel="stylesheet" type="text/css" href="{path_template}css/loader-style.css">
+        <link rel="stylesheet" type="text/css" href="{path_template}css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="{path_template}css/jquery.dynatable.css">
+        <link rel="stylesheet" type="text/css" href="{path_template}css/chat.css">
+        <link rel="stylesheet" type="text/css" href="{path_template}js/validate/validate.css">
+        <link rel="stylesheet" type="text/css" href="{path_template}js/iCheck/line/all.css">
+        <link rel="stylesheet" type="text/css" href="{path_template}js/progress-bar/number-pb.css">
+        <link rel="stylesheet" type="text/css" href="{path_template}js/timepicker/bootstrap-timepicker.css">
+        <link rel="stylesheet" type="text/css" href="{path_template}js/datepicker/datepicker.css">
+        <link rel="stylesheet" type="text/css" href="{path_template}js/datepicker/clockface.css">
+        <link rel="stylesheet" type="text/css" href="{path_template}js/datepicker/bootstrap-datetimepicker.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.4.1/chosen.min.css">
+        <style type="text/css">
+        canvas#canvas4 {
+        position: relative;
+        top: 20px;
+        }
+        </style>
+    </head>
+    <body>
+        <!-- Preloader -->
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div>
+        <!-- TOP NAVBAR -->
+        <nav role="navigation" class="navbar navbar-static-top" style="margin-left: 240px;">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" class="navbar-toggle submenu" type="button">
+                    <span class="entypo-menu"></span>
+                    </button>
+                    <button class="navbar-toggle toggle-menu-mobile toggle-left" type="button">
+                    <span class="entypo-list-add"></span>
+                    </button>
+                    <div id="logo-mobile" class="visible-xs">
+                        <h1>Aakasha
+                        <span>system</span>
+                        </h1>
+                    </div>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+                    <!--
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i style="font-size:20px;" class="icon-conversation"></i><div class="noft-red">23</div></a>
+                            <ul style="margin: 11px 0px 0px 9px; position: absolute; left: 0px; top: 53px;" role="menu" class="dropdown-menu dropdown-wrap">
+                                <li>
+                                    <a href="#">
+                                        <img alt="" class="img-msg img-circle" src="http://api.randomuser.me/portraits/thumb/men/1.jpg">Jhon Doe <b>Just Now</b>
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">
+                                        <img alt="" class="img-msg img-circle" src="http://api.randomuser.me/portraits/thumb/women/1.jpg">Jeniffer <b>3 Min Ago</b>
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">
+                                        <img alt="" class="img-msg img-circle" src="http://api.randomuser.me/portraits/thumb/men/2.jpg">Dave <b>2 Hours Ago</b>
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">
+                                        <img alt="" class="img-msg img-circle" src="http://api.randomuser.me/portraits/thumb/men/3.jpg"><i>Keanu</i>  <b>1 Day Ago</b>
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">
+                                        <img alt="" class="img-msg img-circle" src="http://api.randomuser.me/portraits/thumb/men/4.jpg"><i>Masashi</i>  <b>2 Mounth Ago</b>
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <div>See All Messege</div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i style="font-size:19px;" class="icon-warning tooltitle" data-original-title="" title=""></i><div class="noft-green">5</div></a>
+                            <ul style="margin: 12px 0px 0px; position: absolute; left: 0px; top: 53px;" role="menu" class="dropdown-menu dropdown-wrap">
+                                <li>
+                                    <a href="#">
+                                        <span style="background:#DF2135" class="noft-icon maki-bus"></span><i>From Station</i>  <b>01B</b>
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">
+                                        <span style="background:#AB6DB0" class="noft-icon maki-ferry"></span><i>Departing at</i>  <b>9:00 AM</b>
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">
+                                        <span style="background:#FFA200" class="noft-icon maki-aboveground-rail"></span><i>Delay for</i>  <b>09 Min</b>
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">
+                                        <span style="background:#86C440" class="noft-icon maki-airport"></span><i>Take of</i>  <b>08:30 AM</b>
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">
+                                        <span style="background:#0DB8DF" class="noft-icon maki-bicycle"></span><i>Take of</i>  <b>08:30 AM</b>
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <div>See All Notification</div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><i data-toggle="tooltip" data-placement="bottom" title="" style="font-size:20px;" class="icon-help tooltitle" data-original-title="Help"></i></a>
+                    </li>
+                </ul>
+                    -->
+                <div id="nt-title-container" class="navbar-left running-text visible-lg" style="margin-left: 80px;">
+                    <ul class="date-top">
+                        <li class="entypo-calendar" style="margin-right:5px"></li>
+                        <li id="Date">Tue,  6 January 2015</li>
+                    </ul>
+                    <ul id="digital-clock" class="digital">
+                        <li class="entypo-clock" style="margin-right:5px"></li>
+                        <li class="hour">18</li>
+                        <li>:</li>
+                        <li class="min">38</li>
+                        <li>:</li>
+                        <li class="sec">30</li>
+                        <li class="meridiem">PM</li>
+                    </ul>
+                    <ul id="nt-title" style="height: 18px; overflow: hidden;">
+                        <li style="margin-top: 0px;">
+                            <div id="weather"></div>
+                        </li>
+                    </ul>
+    </div>
+    <ul style="margin-right:0;" class="nav navbar-nav navbar-right">
+        <li>
+            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                <img alt="" class="admin-pic img-circle" src="/uploads/avatars/{avatar}">{Hi}, {username} <b class="caret"></b>
+            </a>
+            <ul style="margin-top:14px;" role="menu" class="dropdown-setting dropdown-menu">
+                <li>
+                    <a href="/user/show_profile">
+                    <span class="entypo-user"></span>&nbsp;&nbsp;{My Profile}</a>
+                </li>
+                <li>
+                    <a href="/user/bookmarks">
+                    <span class="entypo-bookmarks"></span>&nbsp;&nbsp;{Bookmarks}</a>
+                </li>
+                <li>
+                    <a href="/user/add_edit_profile/{user_id}">
+                    <span class="entypo-vcard"></span>&nbsp;&nbsp;{Account Setting}</a>
+                </li>
+                <!--<li>
+                    <a href="#">
+                    <span class="entypo-lifebuoy"></span>&nbsp;&nbsp;Help</a>
+                </li>
+                -->
+                <li class="divider"></li>
+                <li>
+                    <a href="/user/log_out">
+                    <span class="entypo-logout"></span>&nbsp;&nbsp;{Logout}</a>
+                </li>
+            </ul>
+        </li>
+        <li class="hidden-xs">
+            <a class="toggle-left" href="#">
+                <span style="font-size:20px;" class="entypo-list-add"></span>
+            </a>
+        </li>
+    </ul>
+</div>
+<!-- /.navbar-collapse -->
+</div>
+<!-- /.container-fluid -->
+</nav>
+<!-- /END OF TOP NAVBAR -->
+<!-- SIDE MENU -->
+<div id="skin-select" style="left: 0px;">
+<div id="logo">
+<a href="/"><h1>Aakasha
+</h1></a>
+</div>
+<a id="toggle" class="">
+<span class="entypo-menu"></span>
+</a>
+<div class="dark" style="visibility: visible;">
+<form action="#">
+    <span>
+    <input type="text" name="search" value="" class="search rounded id_search" placeholder="{Search Menu}..." autofocus="">
+    </span>
+</form>
+</div>
+<div class="search-hover" style="display: none; position: absolute; right: -100px;">
+<form id="demo-2">
+    <input type="search" placeholder="{Search Menu}..." class="id_search">
+</form>
+</div>
+<div class="skin-part" style="visibility: visible; top: 3px;">
+<div id="tree-wrap">
+    <div class="side-bar">
+        
+        <!-- IF ({history_permissions->invoices_history->permission} == 1) || ({history_permissions->logs->permission} == 1) || ({history_permissions->orders->permission} == 1) || ({history_permissions->upload_customers->permission} == 1) -->
+        <ul class="topnav menu-left-nest" style="margin: 10px;">
+            <li style="text-align: left;">
+                <a href="#" style="border-left-width: 0px !important; border-left-style: solid !important; display: inline-block; float: none;" class="title-menu-left">
+                    <span class="history" style="display: inline-block; float: none;">{History}</span>
+                </a>
+            </li>
+            
+            <!-- IF {history_permissions->invoices_history->permission} == 1 -->
+            <li style="text-align: left;">
+                <a class="tooltip-tip ajax-load tooltipster-enable" href="#" title="{Invoices}">
+                    <i class="entypo-doc-text"></i>
+                    <span style="display: inline-block; float: none;">{Invoices}</span>
+                <h4 style="display: inline-block; float: none;"><img src="{path_template}img/plus.png"></h4></a>
+                <ul>
+                    <li style="text-align: left;">
+                        <a class="tooltip-tip2 ajax-load tooltipster-disable" href="/history/display_invoices" title="{Invoices History}">
+                            <i class="entypo-newspaper"></i>
+                            <span style="display: inline-block; float: none;">{Invoices History}</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- END -->
+
+            <!-- IF {history_permissions->logs->permission} == 1 -->
+            <li style="text-align: left;">
+                <a class="tooltip-tip ajax-load tooltipster-disable" href="/history/log" title="{Logs}">
+                    <i class="entypo-doc"></i>
+                    <span style="display: inline-block; float: none;">{Logs}</span>
+                </a>
+            </li>
+            <!-- END -->
+            
+        </ul>
+        <!-- END -->
+        
+        <ul class="topnav menu-left-nest" style="margin: 10px;">
+            <li style="text-align: left;">
+                <a href="#" style="border-left-width: 0px !important; border-left-style: solid !important; display: inline-block; float: none;" class="title-menu-left">
+                    <span class="orders" style="display: inline-block; float: none;">{Orders}</span>
+                </a>
+            </li>
+            
+            <!-- IF {orders_permissions->upload_order->permission} == 1 -->
+            <li style="text-align: left;">
+                <a class="tooltip-tip ajax-load tooltipster-disable" href="/orders/index" title="{Upload orders}">
+                    <i class="entypo-upload"></i>
+                    <span style="display: inline-block; float: none;">{Upload orders}</span>
+                </a>
+            </li>
+            <!-- END -->
+            
+            <!-- IF {orders_permissions->upload_customers->permission} == 1 -->
+            <li style="text-align: left;">
+                <a class="tooltip-tip ajax-load tooltipster-disable" href="/emails/upload_emails" title="{Upload customers}">
+                    <i class="entypo-mail"></i>
+                    <span style="display: inline-block; float: none;">Качи имейли</span>
+                </a>
+            </li>
+            <!-- END -->
+            
+            <!-- IF {orders_permissions->see_orders->permission} == 1 -->
+            <li style="text-align: left;">
+                <a class="tooltip-tip ajax-load tooltipster-disable" href="/orders/display_orders" title="{Show orders}">
+                    <i class="icon-search"></i>
+                    <span style="display: inline-block; float: none;">{Show orders}</span>
+                </a>
+            </li>
+            <!-- END -->
+            
+            <li style="text-align: left;">
+                <a class="tooltip-tip tooltipster-disable" href="#" title="{Generate}">
+                    <i class="entypo-print"></i>
+                    <span style="display: inline-block; float: none;">{Generate}</span>
+                <h4 style="display: inline-block; float: none;"><img src="{path_template}img/plus.png"></h4></a>
+                <ul>
+                    
+                    <!-- IF {orders_permissions->generate_orders_list->permission} == 1 -->
+                    <li style="text-align: left;">
+                        <a class="tooltip-tip2 ajax-load tooltipster-disable" href="/orders/generate_orders" title="{Orders list}">
+                            <i class="entypo-docs"></i>
+                            <span style="display: inline-block; float: none;">{Orders list}</span>
+                        </a>
+                    </li>
+                    <!-- END -->
+                    
+                    <!-- IF {orders_permissions->generate_single_order->permission} == 1 -->
+                    <li style="text-align: left;">
+                        <a class="tooltip-tip2 ajax-load tooltipster-disable" href="/orders/generate_order/0" title="{Single order}">
+                            <i class="entypo-doc-text"></i>
+                            <span style="display: inline-block; float: none;">{Single order}</span>
+                        </a>
+                    </li>
+                    <!-- END -->
+                    
+                </ul>
+            </li>
+        </ul>
+        
+        <!-- IF ({invoices_permissions->show_orders->permission} == 1) || ({invoices_permissions->generate->permission} == 1) -->
+        <ul id="menu-showhide" class="topnav menu-left-nest" style="margin: 10px;">
+            <li style="text-align: left;">
+                <a href="#" style="border-left-width: 0px !important; border-left-style: solid !important; display: inline-block; float: none;" class="title-menu-left" title="{Invoices}">
+                    <span class="invoices" style="display: inline-block; float: none;">{Invoices}</span>
+                </a>
+            </li>
+            <li style="text-align: left;">
+                
+                    <!-- IF {invoices_permissions->show_orders->permission} == 1 -->
+                    <!--<li style="text-align: left;">
+                        <a class="tooltip-tip2 ajax-load tooltipster-disable" href="/orders/display_orders" title="{Show orders}">
+                            <i class="icon-search"></i>
+                            <span style="display: inline-block; float: none;">{Show orders}</span>
+                        </a>
+                    </li>-->
+                    <!-- END -->
+                    
+                    <!-- IF {invoices_permissions->generate->permission} == 1 -->
+                    <li style="text-align: left;">
+                        <a class="tooltip-tip2 ajax-load tooltipster-disable" href="/orders/generate_invoice/0" title="{Generate}">
+                            <i class="icon-document-edit"></i>
+                            <span style="display: inline-block; float: none;">{Generate}</span>
+                        </a>
+                    </li>
+                    <!-- END -->
+            </li>
+        </ul>
+        <!-- END -->
+
+        <!-- IF {storehouse_permissions->items->permission} == 1 -->
+        <ul id="menu-showhide" class="topnav menu-left-nest" style="margin: 10px;">
+            <li style="text-align: left;">
+                <a href="#" style="border-left-width: 0px !important; border-left-style: solid !important; display: inline-block; float: none;" class="title-menu-left" title="{Invoices}">
+                    <span class="invoices" style="display: inline-block; float: none;">{Storehouse}</span>
+                </a>
+            </li>
+            <li style="text-align: left;">
+
+                <!-- IF {storehouse_permissions->items->permission} == 1 -->
+                <li style="text-align: left;">
+                    <a class="tooltip-tip2 ajax-load tooltipster-disable" href="/storehouse/display_items" title="{Items}">
+                        <i class="icon icon-information"></i>
+                        <span style="display: inline-block; float: none;">{Items}</span>
+                    </a>
+                </li>
+                <!-- END -->
+
+            </li>
+        </ul>
+        <!-- END -->
+
+        <!-- IF {is_admin} == true -->
+        <ul id="menu-showhide" class="topnav menu-left-nest" style="margin: 10px;">
+            <li style="text-align: left;">
+                <a href="#" style="border-left-width: 0px !important; border-left-style: solid !important; display: inline-block; float: none;" class="title-menu-left" title="{User rights}">
+                    <span class="permisions" style="display: inline-block; float: none;">{User rights}</span>
+                </a>
+            </li>
+
+            <li style="text-align: left;">
+                <a class="tooltip-tip tooltipster-disable" href="#" title="{Users}">
+                    <i class="icon icon-user-group"></i>
+                    <span style="display: inline-block; float: none;">{Users}</span>
+                <h4 style="display: inline-block; float: none;"><img src="{path_template}img/plus.png"></h4></a>
+                <ul>
+                    <li style="text-align: left;">
+                        <a class="tooltip-tip2 ajax-load tooltipster-disable" href="/permisions/users_table" title="{Show users}">
+                            <i class="entypo-vcard"></i>
+                            <span style="display: inline-block; float: none;">{Show users}</span>
+                        </a>
+                    </li>
+                    <li style="text-align: left;">
+                        <a class="tooltip-tip2 ajax-load tooltipster-disable" href="/user/add_edit_profile/0" title="{Create user}">
+                            <i class="icon icon-user"></i>
+                            <span style="display: inline-block; float: none;">{Create user}</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            
+            <li style="text-align: left;">
+                <a class="tooltip-tip tooltipster-disable" href="#" title="{Departments}">
+                    <i class="icon-folder"></i>
+                    <span style="display: inline-block; float: none;">{Departments}</span>
+                <h4 style="display: inline-block; float: none;"><img src="{path_template}img/plus.png"></h4></a>
+                <ul>
+                    <li style="text-align: left;">
+                        <a class="tooltip-tip2 ajax-load tooltipster-disable" href="/permisions/departments_table" title="{Show departments}">
+                            <i class="icon icon-search"></i>
+                            <span style="display: inline-block; float: none;">{Show departments}</span>
+                        </a>
+                    </li>
+                    <li style="text-align: left;">
+                        <a class="tooltip-tip2 ajax-load tooltipster-disable" href="/permisions/department_create" title="{Create department}">
+                            <i class="entypo-plus-squared"></i>
+                            <span style="display: inline-block; float: none;">{Create department}</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <!-- END -->
+
+        <ul id="menu-showhide" class="topnav menu-left-nest" style="margin: 10px;">
+            <li style="text-align: left;">
+                <a href="#" style="border-left-width: 0px !important; border-left-style: solid !important; display: inline-block; float: none;" class="title-menu-left" title="{User rights}">
+                    <span class="permisions" style="display: inline-block; float: none;">{Reports}</span>
+                </a>
+            </li>
+
+            <li style="text-align: left;">
+                <a class="tooltip-tip2 ajax-load tooltipster-disable" href="/reports/saved" title="{display_reports}">
+                    <i class="glyphicon glyphicon-eye-open"></i>
+                    <span style="display: inline-block; float: none;">{display_reports}</span>
+                </a>
+            </li>
+            <li style="text-align: left;">
+                <a class="tooltip-tip2 ajax-load tooltipster-disable" href="/reports/new" title="{new_report}">
+                    <i class="glyphicon glyphicon-plus"></i>
+                    <span style="display: inline-block; float: none;">{new_report}</span>
+                </a>
+            </li>
+        </ul>
+    </ul>
+        
+
+</div>
+</div>
+</div>
+</div>
+<!-- END OF SIDE MENU -->

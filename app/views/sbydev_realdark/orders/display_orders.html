@@ -1,0 +1,117 @@
+<div class="wrap-fluid" style="width: auto; margin-left: 250px;">
+    <div class="container-fluid paper-wrap bevel tlbr orders">
+        <!--TITLE -->
+        <div class="row">
+            <div id="paper-top">
+                <div class="col-sm-12">
+                    <h2 class="tittle-content-header">
+                    <i class="icon-document-edit"></i>
+                    <span>{Show orders}</span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <!--/ TITLE -->
+        <!-- BREADCRUMB -->
+        <ul id="breadcrumb">
+            <li>
+                <span class="entypo-home"></span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="/" title="Home">{Home}</a>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <span>{Invoices}</span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="#" title="Invoice generation">{Show orders}</a>
+            </li>
+        </ul>
+        <!-- END OF BREADCRUMB -->
+        <div class="row" style="padding:0 30px;">
+            <div class="col-sm-12">
+                <div class="nest" id="inlineClose">
+                    <div class="title-alt">
+                        <h6>{Show orders}</h6>
+                        <!--
+                        <div class="titleClose">
+                            <a class="gone" href="#inlineClose">
+                                <span class="entypo-cancel"></span>
+                            </a>
+                        </div> -->
+                        <div class="titleToggle">
+                            <a class="nav-toggle-alt" href="#inline">
+                                <span class="entypo-up-open"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="body-nest" id="inline">
+                        <div class="orders_dates simple_info_table" style="width:100%; clear:both">
+                            <div class="form_center" style="width:80%;">
+                                <form role="form" class="form-inline">
+                                    <div class="form-group">
+                                        <label for="from_date">{from date}</label><br>
+                                        <input type="text" class="form-control" id="from_date" value="{start_date}">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="to_date">{to date}</label><br>
+                                        <input type="text" class="form-control" id="to_date" value="{end_date}">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="order-standart">{orders type}</label><br>
+                                        <select id="order-standart" name="standart" class="form-control">
+                                            <option value="" disabled>{Standart}</option>
+                                            <option value="all" selected>{All}</option>
+                                            <option value="true">{Yes}</option>
+                                            <option value="false">{No}</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="order-status">{orders status}</label><br>
+                                        <select id="order-status" name="status" class="form-control">
+                                            <option value="" disabled>{Status}</option>
+                                            <option value="all">{All}</option>
+                                            <option value="active" selected>{Active}</option>
+                                            <option value="completed">{Completed}</option>
+                                        </select>
+                                    </div>
+                                    <button class="btn btn-info" id="get-time" style="MARGIN-TOP: 23px;">{Search}</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="padding:0 30px;">
+                <div class="nest" id="validationClose">
+                    <div class="body-nest" id="inline">
+                        <div id="table-response">
+                            <table style="width:100%;" class="table table-bordered all_orders">
+                                <thead>
+                                    <tr>
+                                        <th>{Order number}</th>
+                                        <th>{Progress}</th>
+                                        <th>{Status}</th>
+                                        <th>{Date}</th>
+                                        <th style="width: 150px;">{Actions}</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="table-details"></div>
+                    </div>
+                </div>
+            </div>
+        </div>

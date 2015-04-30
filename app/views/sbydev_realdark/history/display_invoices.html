@@ -1,0 +1,96 @@
+<div class="wrap-fluid" style="width: auto; margin-left: 250px;">
+    <div class="container-fluid paper-wrap bevel tlbr">
+        <!--TITLE -->
+        <div class="row">
+            <div id="paper-top">
+                <div class="col-sm-12">
+                    <h2 class="tittle-content-header">
+                    <i class="icon-document-edit"></i>
+                    <span>{Show generated invoices}</span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <!--/ TITLE -->
+        <!-- BREADCRUMB -->
+        <ul id="breadcrumb">
+            <li>
+                <span class="entypo-home"></span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="/" title="Home">Home</a>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <span>{History}</span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="#" title="Invoice generation">{Invoices}</a>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="#" title="Invoice generation">{History invoices}</a>
+            </li>
+        </ul>
+        <!-- END OF BREADCRUMB -->
+        <div class="row" style="padding:0 30px;">
+            <div class="col-sm-12">
+                <div class="nest" id="inlineClose">
+                    <div class="title-alt">
+                        <h6>{Show generated invoices}</h6>
+                        <!--
+                        <div class="titleClose">
+                            <a class="gone" href="#inlineClose">
+                                <span class="entypo-cancel"></span>
+                            </a>
+                        </div> -->
+                        <div class="titleToggle">
+                            <a class="nav-toggle-alt" href="#inline">
+                                <span class="entypo-up-open"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="body-nest" id="inline">
+                        <div class="orders_dates simple_info_table" style="width:100%; clear:both">
+                            <div class="form_center">
+                                <form role="form" class="form-inline">
+                                    <div class="form-group" style="width:40%;">
+                                        <label for="from_date">{Enter the order number}</label><br>
+                                        <input type="number" id="order_number" class="order_number form-control" name="order_number" placeholder="{Enter the order number}" style="width:100%;"></input>
+                                        <label for="order_number" id="show-id-error" generated="true" class="error"><strong>{Warning!}</strong> {There is no such order number.}</label>
+                                    </div>
+                                    <button class="btn btn-primary fix-btn-js" id="view" name="view" style="MARGIN-TOP: 23px;">{View}</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!--display table-->
+                    <span class="text-center display-invoices-history hidden">
+                        <table class="table" style="width: 650px; margin: 0 auto;">
+                            <thead>
+                                <tr>
+                                    <th>{Adress}</th>
+                                    <th>{Created}</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                            </tbody>
+                        </table>
+                    </span>
+                    <!--/display table-->
+                
+                </div>
+            </div>
+        </div>

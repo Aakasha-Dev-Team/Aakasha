@@ -1,0 +1,105 @@
+<div class="wrap-fluid" style="width: auto; margin-left: 250px;">
+    <div class="container-fluid paper-wrap bevel tlbr log_table">
+        <!--TITLE -->
+        <div class="row">
+            <div id="paper-top">
+                <div class="col-sm-12">
+                    <h2 class="tittle-content-header">
+                        <i class="icon-document-edit"></i>
+                        <span>{Reports}</span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <!--/ TITLE -->
+        <!-- BREADCRUMB -->
+        <ul id="breadcrumb">
+            <li>
+                <span class="entypo-home"></span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="/" title="Home">{Home}</a>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="#" title="{History}">{Reports}</a>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="#" title="Invoice generation">{show}</a>
+            </li>
+        </ul>
+        <!-- END OF BREADCRUMB -->
+        <div class="row" style="padding:0 30px;">
+            <div class="col-sm-12">
+                <div class="nest" id="inlineClose">
+                    <div class="title-alt">
+                        <h6>{show}</h6>
+                        <!--
+                        <div class="titleClose">
+                            <a class="gone" href="#inlineClose">
+                                <span class="entypo-cancel"></span>
+                            </a>
+                        </div> -->
+                        <div class="titleToggle">
+                            <a class="nav-toggle-alt" href="#inline">
+                                <span class="entypo-up-open"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="body-nest" id="inline">
+                        <div class="orders_dates simple_info_table" style="width:100%; clear:both">
+                            <div class="form_center" style="width:80%;">
+
+                                <!-- IF {success} -->
+                                    <div class="alert alert-success" role="alert">{success}</div>
+                                <!-- END -->
+
+                                <!-- IF {error} -->
+                                    <div class="alert alert-warning" role="alert">{error}</div>
+                                <!-- END -->
+
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <td class="col-md-8">{Name}</td>
+                                            <td class="col-md-2">{Created at}</td>
+                                            <td class="col-md-2">{Actions}</td>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <!-- BEGIN {reports} AS report -->
+                                            <tr>
+                                                <td>{report.name}</td>
+                                                <td>{report.created_at}</td>
+                                                <td>
+                                                    <div class="dropdown">
+                                                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                                                            {Choose}
+                                                            <span class="caret"></span>
+                                                        </button>
+                                                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/reports/details/{report.id}">{View}</a></li>
+                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">{Edit}</a></li>
+                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/reports/delete/{report.id}">{Delete}</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        <!-- END report -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

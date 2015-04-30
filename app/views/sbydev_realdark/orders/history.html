@@ -1,0 +1,69 @@
+<div class="wrap-fluid" style="width: auto; margin-left: 250px;">
+    <div class="container-fluid paper-wrap bevel tlbr">
+        <!--TITLE -->
+        <div class="row">
+            <div id="paper-top">
+                <div class="col-sm-12">
+                    <h2 class="tittle-content-header">
+                        <i class="icon-document-edit"></i>
+                        <span>{show_history}</span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <!--/ TITLE -->
+        <!-- BREADCRUMB -->
+        <ul id="breadcrumb">
+            <li>
+                <span class="entypo-home"></span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="/" title="Home">{Home}</a>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <span>{Order}</span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="#" title="Invoice generation">{show_history}</a>
+            </li>
+        </ul>
+        <!-- END OF BREADCRUMB -->
+        <div class="row" style="padding:0 30px;">
+            <div class="col-sm-12">
+                <div class="nest" id="inlineClose">
+                    <div class="title-alt">
+                        <h6>{show_history}</h6>
+                        <!--
+                        <div class="titleClose">
+                            <a class="gone" href="#inlineClose">
+                                <span class="entypo-cancel"></span>
+                            </a>
+                        </div> -->
+                        <div class="titleToggle">
+                            <a class="nav-toggle-alt" href="#inline">
+                                <span class="entypo-up-open"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="body-nest" id="inline">
+                        <div class="orders_dates simple_info_table" style="width:100%; clear:both">
+                            <div class="form_center" style="width:80%;">
+                                <h4>{tasks}</h4>
+                                {history}
+
+                                <a id="close" href="#" class="btn btn-warning">{Close}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

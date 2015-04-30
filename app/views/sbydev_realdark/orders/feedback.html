@@ -1,0 +1,110 @@
+<div class="wrap-fluid" style="width: auto; margin-left: 250px;">
+    <div class="container-fluid paper-wrap bevel tlbr">
+        <!--TITLE -->
+        <div class="row">
+            <div id="paper-top">
+                <div class="col-sm-12">
+                    <h2 class="tittle-content-header">
+                        <i class="icon-document-edit"></i>
+                        <span>{show_history}</span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <!--/ TITLE -->
+        <!-- BREADCRUMB -->
+        <ul id="breadcrumb">
+            <li>
+                <span class="entypo-home"></span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="/" title="Home">{Home}</a>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <span>{Order}</span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="#" title="Invoice generation">{show_feedback}</a>
+            </li>
+        </ul>
+        <!-- END OF BREADCRUMB -->
+        <div class="row" style="padding:0 30px;">
+            <div class="col-sm-12">
+                <div class="nest" id="inlineClose">
+                    <div class="title-alt">
+                        <h6>{show_feedback}</h6>
+                        <!--
+                        <div class="titleClose">
+                            <a class="gone" href="#inlineClose">
+                                <span class="entypo-cancel"></span>
+                            </a>
+                        </div> -->
+                        <div class="titleToggle">
+                            <a class="nav-toggle-alt" href="#inline">
+                                <span class="entypo-up-open"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="body-nest" id="inline">
+                        <div class="orders_dates simple_info_table" style="width:100%; clear:both">
+                            <div class="form_center" style="width:80%;">
+                                <form id="form" action="/storehouse/existing_item_edit" method="post" class="form-horizontal">
+                                    <input type="hidden" name="id" value="{id}">
+
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">{Status}</label>
+                                        <div class="col-sm-10">
+                                            <label class="radio-inline">
+                                                <!-- IF {o_status} == 0 -->
+                                                    <input type="radio" name="status" id="inlineRadio1" value="0" checked> {None}
+                                                <!-- ELSE -->
+                                                    <input type="radio" name="status" id="inlineRadio1" value="0"> {None}
+                                                <!-- END -->
+                                            </label>
+                                            <label class="radio-inline">
+                                                <!-- IF {o_status} == 1 -->
+                                                    <input type="radio" name="status" id="inlineRadio2" value="1" checked> {Good}
+                                                <!-- ELSE -->
+                                                    <input type="radio" name="status" id="inlineRadio2" value="1"> {Good}
+                                                <!-- END -->
+                                            </label>
+                                            <label class="radio-inline">
+                                                <!-- IF {o_status} == 2 -->
+                                                    <input type="radio" name="status" id="inlineRadio3" value="2" checked> {Bad}
+                                                <!-- ELSE -->
+                                                    <input type="radio" name="status" id="inlineRadio3" value="2"> {Bad}
+                                                <!-- END -->
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="feedback">{Feedback}</label>
+                                        <div class="col-sm-10">
+                                            <textarea name="feedback" id="feedback" class="form-control height-fix" rows="8">{o_feedback}</textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-sm-offset-2 col-sm-10">
+                                            <button type="submit" class="btn btn-default">{Save}</button>
+                                            <button type="button" id="close" class="btn btn-danger">{Close}</button>
+                                        </div>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

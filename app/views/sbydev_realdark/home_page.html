@@ -1,0 +1,136 @@
+<div class="wrap-fluid" style="width: auto; margin-left: 250px;">
+    <div class="container-fluid paper-wrap bevel tlbr">
+        <!--TITLE -->
+        <div class="row">
+            <div id="paper-top">
+                <div class="col-sm-3">
+                    <h2 class="tittle-content-header">
+                    <i class="icon-window"></i>
+                    <span>Home page
+                    </span>
+                    </h2>
+                </div>
+                <div class="col-sm-7">
+                    <div class="devider-vertical visible-lg"></div>
+                    <div class="tittle-middle-header">
+                        <div class="alert">
+                            <button type="button" class="close" data-dismiss="alert">x</button>
+                            <span class="tittle-alert entypo-info-circled"></span>
+                            Welcome back,&nbsp;
+                            <strong>{username} !</strong>&nbsp;&nbsp;Your last sig in was at {day_time_last_signin}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ TITLE -->
+        <!-- BREADCRUMB -->
+        <ul id="breadcrumb">
+            <li>
+                <span class="entypo-home"></span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="#" title="Sample page 1">{home}</a>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="#" title="Sample page 1">{dashboard}</a>
+            </li>
+        </ul>
+        <!-- END OF BREADCRUMB -->
+        <!-- Shipping & Invoicing Dashboard -->
+        <!-- user rights for create invoice -->
+        <div class="row" style="margin-top:00px;padding:0 30px;">
+            <div class="col-sm-12">
+                <div class="nest" id="inlineClose">
+                    <div class="title-alt">
+                        <h6>{dashboard}</h6>
+                        <div class="titleToggle">
+                            <a class="nav-toggle-alt" href="#inline">
+                                <span class="entypo-up-open"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="body-nest" id="inline">
+
+
+                        <ul class="nav nav-tabs">
+
+                            <li class="active"><a data-toggle="tab" href="#sectionA">{orders with more than one address}</a></li>
+                            <li><a data-toggle="tab" href="#sectionB">{orders progress}</a></li>
+                            <li><a data-toggle="tab" href="#sectionC">{purchased items}</a></li>
+
+                        </ul>
+
+                        <div class="tab-content">
+
+                            <div id="sectionA" class="tab-pane fade in active">
+
+                                <div class="orders_dates adresses simple_info_table" style="width:100%; clear:both">
+                                    <h3>{orders with more than one address}</h3>
+
+                                    <ol class="buyers_list">
+                                        <!-- BEGIN {users_with_more_one_adress} AS value -->
+                                            <li class="col-sm-6 pull-left">
+                                                <p style="width:95% !important;"><span class="dashboard_buyer">{value.name}</span> {with order} <span class="dashboard_order">{value.sale}</span> {has more than one address}. {Please take in considuration that shipping adresses are diferent}.</p>
+                                            </li>
+                                        <!-- END value -->
+                                    </ol>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                            </div>
+
+                            <div id="sectionB" class="tab-pane fade">
+
+                                <h3>{orders progress}</h3>
+
+                                <!-- BEGIN {time_limit} AS limit -->
+                                    <ul>
+                                    <li class="col-sm-4" type="disc"><b>{limit.sale}</b> - {limit.time_limit}</li>
+                                    </ul>
+                                <!-- END limit -->
+                                <div class="clearfix"></div>
+                            </div>
+
+                            <div id="sectionC" class="tab-pane fade">
+
+                                <h3>{purchased items}</h3>
+
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>{sku}</th>
+                                            <th>{name_en}</th>
+                                            <th>{size}</th>
+                                            <th>{color}</th>
+                                            <th>{quantity}</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- BEGIN {count_items} AS item -->
+                                            <tr>
+                                                <td>{item.sku}</td>
+                                                <td>{item.name_en}</td>
+                                                <td>{item.size}</td>
+                                                <td>{item.color}</td>
+                                                <td>{item.quantity}</td>
+                                            </tr>
+                                        <!-- END item -->
+                                    </tbody>
+                                </table>
+
+                                <div class="clearfix"></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>

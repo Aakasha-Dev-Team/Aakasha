@@ -1,0 +1,77 @@
+<div class="container">
+    <ul class="nav nav-tabs nav-justified">
+      <li role="presentation"><a href="/orders/index">{Import}</a></li>
+      <li role="presentation"><a href="#">{Export}</a></li>
+      <li role="presentation" class="active"><a href="/orders/display_orders">{Orders listing}</a></li>
+    </ul>
+    
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <br>
+            <div class="content">
+                <div class="orders_dates simple_info_table" style="width:100%; clear:both">
+                    <div class="col-md-8">
+                        <div class="col-md-3">
+                            <div id="from_date" class="input-append">
+                                <input data-format="yyyy-MM-dd" style="width: 110px;" type="text" placeholder="{from date}" value="{start_date}"></input>
+                                <span class="add-on">
+                                <i class="glyphicon glyphicon-calendar" data-time-icon="icon-time" data-date-icon="icon-calendar"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div id="to_date" class="input-append">
+                                <input data-format="yyyy-MM-dd" style="width: 110px;" type="text" placeholder="{to date}" value="{end_date}"></input>
+                                <span class="add-on">
+                                <i class="glyphicon glyphicon-calendar" data-time-icon="icon-time" data-date-icon="icon-calendar"></i>
+                                </span>
+                            </div>
+                        </div>
+                
+                        <div class="col-md-2">
+                            <select id="order-standart" name="standart" style="width: 100px;" class="form-control">
+                              <option value="" disabled>{Standart}</option>
+                              <option value="all" selected>{All}</option>
+                              <option value="true">{Yes}</option>
+                              <option value="false">{No}</option>
+                            </select>
+                        </div>
+                
+                        <div class="col-md-2">
+                            <select id="order-status" name="status" class="form-control">
+                              <option value="" disabled>{Status}</option>
+                              <option value="all" selected>{All}</option>
+                              <option value="active">{Active}</option>
+                              <option value="completed">{Completed}</option>
+                            </select>
+                        </div>
+                
+                        <div class="col-md-1">
+                            <button class="btn btn-info" id="get-time">{Search}</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="table-response">
+                    <table style="width:100%;" class="table table-bordered all_orders">
+                        <thead>
+                            <tr>
+                                <th>{Order number}</th>
+                                <th>{Date}</th>
+                                <th>{Status}</th>
+                                <th>{Actions}</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div id="table-details"></div>
+                
+            </div>
+        </div>
+        
+    </div>
+</div>

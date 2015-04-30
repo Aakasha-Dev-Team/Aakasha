@@ -1,0 +1,163 @@
+<div class="wrap-fluid" style="width: auto; margin-left: 250px;">
+    <div class="container-fluid paper-wrap bevel tlbr items">
+        <!--TITLE -->
+        <div class="row">
+            <div id="paper-top">
+                <div class="col-sm-12">
+                    <h2 class="tittle-content-header">
+                    <i class="icon-document-edit"></i>
+                    <span>{Items}</span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <!--/ TITLE -->
+        <!-- BREADCRUMB -->
+        <ul id="breadcrumb">
+            <li>
+                <span class="entypo-home"></span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="/" title="Home">{Home}</a>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <span>{Storehouse}</span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="#" title="Show users">{Items}</a>
+            </li>
+        </ul>
+        <!-- END OF BREADCRUMB -->
+        <div class="row" style="padding:0 30px;">
+            <div class="col-sm-12">
+                <div class="nest" id="inlineClose">
+                    <div class="title-alt">
+                        <h6>{Items}</h6>
+                        <!--
+                        <div class="titleClose">
+                            <a class="gone" href="#inlineClose">
+                                <span class="entypo-cancel"></span>
+                            </a>
+                        </div> -->
+                        <div class="titleToggle">
+                            <a class="nav-toggle-alt" href="#inline">
+                                <span class="entypo-up-open"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="body-nest" id="inline">
+                        <div class="storehouse_table simple_info_table" style="width:100%; clear:both">
+                        <div id="table-response">
+                            <table id="table-fill" style="width:100%;" class="table table-bordered all_orders">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>{SKU}</th>
+                                        <th>{Group No}</th>
+                                        <th>{Item No}</th>
+                                        <th>{Cut No}</th>
+                                        <th>{Group Desc EN}</th>
+                                        <th>{Group Desc BG}</th>
+                                        <th>{Item Desc EN}</th>
+                                        <th>{Item Desc BG}</th>
+                                        <th>{Image 1}</th>
+                                        <th>{Image 2}</th>
+                                        <th></th>
+                                        <!--<th></th>-->
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- BEGIN {items} AS item -->
+                                    <tr>
+                                        <td class="prd_info">{__i}</td>
+                                        <td class="prd_info">{item.sku}</td>
+                                        <td class="prd_info">{item.group_no}</td>
+                                        <td class="prd_info">{item.item_no}</td>
+                                        <td class="prd_info">{item.cut_no}</td>
+                                        <td class="prd_info">{item.group_description_en}</td>
+                                        <td class="prd_info">{item.group_description_bg}</td>
+                                        <td class="prd_info">{item.item_description_en}</td>
+                                        <td class="prd_info">{item.item_description_bg}</td>
+                                        <td>
+                                            <a href="#imgModal" role="button" class="btn btn-large btn-primary" data-image-url="{item.image_1}" data-toggle="modal">{Show image}</a>
+                                        </td>
+                                        <td>
+                                            <a href="#imgModal" role="button" class="btn btn-large btn-primary" data-image-url="{item.image_2}" data-toggle="modal">{Show image}</a>
+                                        </td>
+                                        <td data-id="{item.id}" class="prd_info edit-saved-row-js"><a href="/storehouse/edit/{item.id}" class="edit-saved-row-js"><i class="icon icon-document-edit"></i></a></td>
+                                        <!--<td><a href="/storehouse/stats/{item.id}" target="_blank"><i class="icon icon-graph-pie"></i></a></td>-->
+                                        <td class="prd_info"><a data-id="{item.id}" href="#" class="delete-saved-row-js"><i class="icon icon-trash"></i></a></td>
+                                    </tr>
+                                    <!-- END item -->
+                                    <tr>
+                                        <td></td>
+                                        <td><input type="text" class="form-control" name="sku[]"></td>
+                                        <td><input type="text" class="form-control" name="group_no[]"></td>
+                                        <td><input type="text" class="form-control" name="item_no[]"></td>
+                                        <td><input type="text" class="form-control" name="cut_no[]"></td>
+                                        <td><input type="text" class="form-control" name="group_description_en[]"></td>
+                                        <td><input type="text" class="form-control" name="group_description_bg[]"></td>
+                                        <td><input type="text" class="form-control" name="item_description_en[]"></td>
+                                        <td><input type="text" class="form-control" name="item_description_bg[]"></td>
+                                        <td><input type="text" class="form-control" name="image_1[]"></td>
+                                        <td><input type="text" class="form-control" name="image_2[]"></td>
+                                        <td></td>
+                                        <!--<td></td>-->
+                                        <td class="delete-unsaved-row-js"><i class="icon icon-trash"></i></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <br><br><br>
+                            <button type="button" class="btn btn-primary" id="create_save">{Save}</button>
+                            <button type="button" class="btn btn-default" id="add_row">{Add row}</button>
+                        </div>
+                        <div id="table-details"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal HTML -->
+
+        <div id="imgModal" class="modal fade">
+
+            <div class="modal-dialog">
+
+                <div class="modal-content">
+
+                    <div class="modal-header">
+
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+                        <h4 class="modal-title">Image</h4>
+
+                    </div>
+
+                    <div class="modal-body">
+
+                        <img class="img-responsive center-block" src="" style="max-height: 700px;">
+
+                    </div>
+
+                    <div class="modal-footer">
+
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>

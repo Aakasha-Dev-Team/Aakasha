@@ -1,0 +1,2207 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ScienceStream\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-08 12:45+0200\n"
+"PO-Revision-Date: 2015-04-08 12:56+0200\n"
+"Last-Translator: Boris Lazarov <me@borislazarov.com>\n"
+"Language-Team: Kinyx Team <me@borislazarov.com>\n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _T;gettext;gettext_noop\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /home/realdark/PhpstormProjects/appdev.aakasha.com\n"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:25
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:62
+msgid "Toggle navigation"
+msgstr "Превключване на навигацията"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:26
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:63
+msgid "Aakasha Internal System"
+msgstr ""
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:27
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:64
+msgid "Advanced Search"
+msgstr "Подробно търсене"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:28
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:65
+msgid "Reports"
+msgstr "Доклади"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:29
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:66
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/HistoryController.php:41
+msgid "Invoices History"
+msgstr "История фактури"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:30
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:67
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:52
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:737
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1778
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1795
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2334
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:182
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:189
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:412
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:419
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:562
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:569
+msgid "Orders"
+msgstr "Поръчки"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:31
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:68
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:245
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1765
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1777
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1790
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2329
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:187
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:417
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:567
+msgid "Generate"
+msgstr "Генериране"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:32
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:69
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:213
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:443
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:593
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:38
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:40
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:225
+msgid "Items"
+msgstr "Артикули"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:33
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:70
+msgid "Price List"
+msgstr "Ценова листа"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:34
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:71
+msgid "LookBook (catalog)"
+msgstr ""
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:35
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:72
+msgid "Item details"
+msgstr "Информация за артикул"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:36
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:73
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:85
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:48
+msgid "Production"
+msgstr "Продукция"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:37
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:74
+msgid "Order cycle"
+msgstr "Цикъл поръчки"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:38
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:75
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/LogController.php:34
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:897
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:173
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:403
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:551
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/HistoryController.php:49
+msgid "History"
+msgstr "История"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:39
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:76
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:721
+msgid "Search"
+msgstr "Търсене"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:40
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:77
+msgid "Administration"
+msgstr "Администрация"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:41
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:78
+msgid "User privilegues"
+msgstr "Потребителски привилегии"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:42
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:79
+msgid "Test area"
+msgstr "Тестова зона"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:43
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:80
+msgid "Parameters"
+msgstr "Параметри"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:44
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:81
+msgid "Roles"
+msgstr "Права"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:45
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:82
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:249
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1769
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2335
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:3171
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:3208
+msgid "Close"
+msgstr "Затвори"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:46
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:83
+msgid "Logout"
+msgstr "Изход"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:52
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:130
+msgid "The page you were looking for could not be found"
+msgstr "Страницата, която търсите не може да бъде намерена"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:53
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:131
+msgid "This could be the result of the page being removed, the name being changed or the page being temporarily unavailable"
+msgstr ""
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:54
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:132
+msgid "Troubleshooting"
+msgstr ""
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:55
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:133
+msgid "If you spelled the URL manually, double check the spelling"
+msgstr ""
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:56
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:134
+msgid "Go to our website's home page, and navigate to the content in question"
+msgstr ""
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:84
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:342
+msgid "Users"
+msgstr "Потребители"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:86
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:180
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:207
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:410
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:437
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:558
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:587
+msgid "Departments"
+msgstr "Отдели"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:87
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:49
+msgid "Packaging"
+msgstr "Опаковане"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:88
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:50
+msgid "Sales"
+msgstr "Продажби"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:89
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:739
+msgid "In production"
+msgstr "В производство"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:90
+msgid "Closed"
+msgstr "Приключени"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:91
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:729
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1786
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2324
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:47
+msgid "All"
+msgstr "Всички"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:92
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:190
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:420
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:570
+msgid "Upload orders"
+msgstr "Качи поръчки"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:93
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:733
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:185
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:415
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:565
+msgid "Show orders"
+msgstr "Покажи поръчки"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:94
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1792
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2331
+msgid "Orders list"
+msgstr "Списък поръчки"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:95
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1776
+msgid "Single order"
+msgstr "Единична поръчка"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:96
+msgid "Generation"
+msgstr "Генериране"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:97
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:259
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:184
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:414
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:564
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/HistoryController.php:48
+msgid "Invoices"
+msgstr "Фактури"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:98
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:257
+msgid "Invoice generation"
+msgstr "Генериране фактури"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:99
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:255
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1171
+msgid "Generate invoice"
+msgstr "Генериране на фактура"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:100
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1781
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1793
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2332
+msgid "Select type"
+msgstr "Изберете тип"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:101
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1782
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1794
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2333
+msgid "Select status"
+msgstr "Изберете статус"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:102
+msgid "Permisions"
+msgstr "Права"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:103
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:44
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:171
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:401
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:549
+msgid "Show users"
+msgstr "Покажи потребителите"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:104
+msgid "Create user"
+msgstr "Създаване на потребител"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:105
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:338
+msgid "Show departments"
+msgstr "Покажи отделите"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:106
+msgid "Create department"
+msgstr "Създай отдел"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:107
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:43
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:170
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:340
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:400
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:548
+msgid "User rights"
+msgstr "Права на потребителя"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:108
+msgid "My Profile"
+msgstr "Моя профил"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:109
+msgid "Hi"
+msgstr "Здравей"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:110
+msgid "Search Menu"
+msgstr "Търсене"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:111
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:192
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:422
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:572
+msgid "Upload customers"
+msgstr "Качи потребители"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:121
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:391
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:393
+msgid "Bookmarks"
+msgstr "Любими"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:122
+msgid "Account Setting"
+msgstr "Настройки"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:124
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:212
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:442
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:592
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:41
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:228
+msgid "Storehouse"
+msgstr "Склад"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/etc/templates.php:125
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:210
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:440
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:590
+msgid "Logs"
+msgstr "Логове"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/MainController.php:64
+msgid "with order"
+msgstr "с поръчка"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/MainController.php:65
+msgid "has more than one address"
+msgstr "има повече от един адрес"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/MainController.php:66
+msgid "Please take in considuration that shipping adresses are diferent"
+msgstr "Моля имайте в предвид, че адресите са различни"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/MainController.php:67
+msgid "ORDERS OVERVIEW"
+msgstr "Общ преглед на поръчките"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/MainController.php:68
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:258
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:736
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:3169
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:3206
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:42
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:169
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:339
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:547
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/ChatController.php:268
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:39
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:226
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:61
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:154
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:392
+msgid "Home"
+msgstr "Начало"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/MainController.php:69
+msgid "Dashboard"
+msgstr "Табло"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/MainController.php:71
+msgid "Orders with more than one address"
+msgstr "Поръчки с повече от един адрес"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/MainController.php:72
+msgid "Orders Progress"
+msgstr "Прогрес"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/MainController.php:74
+msgid "Purchased items"
+msgstr "Поръчани артикули"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/MainController.php:76
+msgid "Sku"
+msgstr "К. номер"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/MainController.php:77
+msgid "Name EN"
+msgstr "Име ЕН"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/MainController.php:78
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1018
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2106
+msgid "Quantity"
+msgstr "Количество"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/MainController.php:79
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1006
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2019
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2559
+msgid "Size"
+msgstr "Размер"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/MainController.php:80
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1010
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2020
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2560
+msgid "Color"
+msgstr "Цвят"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/LogController.php:33
+msgid "View Logs"
+msgstr "Виж логовете"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/LogController.php:35
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:86
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:345
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/HistoryController.php:45
+msgid "View"
+msgstr "Виж"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/LogController.php:36
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:719
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1779
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2319
+msgid "from date"
+msgstr "от дата"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/LogController.php:37
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:720
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1780
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2320
+msgid "to date"
+msgstr "до дата"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/LogController.php:38
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:53
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:341
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:397
+msgid "Name"
+msgstr "Име"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/LogController.php:39
+msgid "Action"
+msgstr "Действия"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/LogController.php:40
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:723
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1129
+msgid "Date"
+msgstr "Дата"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:53
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:716
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/EmailController.php:41
+msgid "Import"
+msgstr "Качване"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:54
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:717
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/EmailController.php:42
+msgid "Export"
+msgstr "Изтегляне"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:55
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:718
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/EmailController.php:43
+msgid "Orders listing"
+msgstr "Показване поръчките"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:56
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/EmailController.php:44
+msgid "File input"
+msgstr "Качване на файл"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:57
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/EmailController.php:45
+msgid "Submit"
+msgstr "Изпращане"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:58
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/EmailController.php:46
+msgid "Show Details"
+msgstr "Детайли"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:59
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/EmailController.php:47
+msgid "Upload files"
+msgstr "Качи файлове"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:60
+msgid "Upload orders file"
+msgstr "Качи списък поръчки"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:201
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/HistoryController.php:114
+msgid "Warning"
+msgstr "Внимание"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:202
+msgid "The file was successfully uploaded but some of the items don`t have SKU. For more information click on details button!."
+msgstr "Файла беше успешно качен, но някои от продуктите нямат каталожен номнер. За повече инфромация кликнете на бутона `Детайли`"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:209
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:300
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:526
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:695
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:357
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:362
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:499
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/EmailController.php:167
+msgid "Success"
+msgstr "Успех"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:209
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/EmailController.php:167
+msgid "The file was successfully uploaded."
+msgstr "Файла беше успешно качен."
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:213
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1642
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1695
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:3011
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/AuthenticationController.php:95
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/AuthenticationController.php:104
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/ChatController.php:478
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:367
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:371
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:501
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/EmailController.php:170
+msgid "Error"
+msgstr "Грешка"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:213
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/EmailController.php:170
+msgid "The file was NOT uploaded."
+msgstr "Файла НЕ беше качен"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:246
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:894
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1766
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2315
+msgid "Generate Invoice"
+msgstr "Генериране на фактура"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:247
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1171
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1767
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1773
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2316
+msgid "Generate order"
+msgstr "Генериране на поръчка"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:248
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1768
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2317
+msgid "Generade orders list"
+msgstr "Генериране списък поръчки"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:250
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1770
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/HistoryController.php:42
+msgid "Warning!"
+msgstr "Внимание!"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:251
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1771
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/HistoryController.php:43
+msgid "There is no such order number."
+msgstr "Няма поръчка с такъв номер."
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:252
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1772
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/HistoryController.php:44
+msgid "Enter the order number"
+msgstr "Веведете номер на поръчка"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:253
+msgid "Select the number of packages"
+msgstr "Изберете броя пакетите"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:254
+msgid "Enter the weight of the packages"
+msgstr "Въведете тегло на пратката"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:256
+msgid "Total Value of Shipment"
+msgstr "Сума на доставката"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:715
+msgid "Display Orders"
+msgstr "Покажи поръчките"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:722
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1126
+msgid "Order number"
+msgstr "Номер на поръчка"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:724
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1127
+msgid "Time limit"
+msgstr "Краен срок"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:725
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1130
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:55
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:343
+msgid "Actions"
+msgstr "Действия"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:726
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1128
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1783
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2321
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:3210
+msgid "Status"
+msgstr "Статус"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:727
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1154
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1784
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2322
+msgid "Active"
+msgstr "Активна"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:728
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1156
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1785
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2323
+msgid "Completed"
+msgstr "Приключена"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:730
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:864
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1788
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1900
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2327
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2442
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:178
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:408
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:556
+msgid "Yes"
+msgstr "Да"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:731
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:864
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1789
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1900
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2328
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2442
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:176
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:406
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:554
+msgid "No"
+msgstr "Не"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:732
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1787
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2325
+msgid "Standart"
+msgstr "Стандартна"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:734
+msgid "Orders type"
+msgstr "Тип поръчки"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:735
+msgid "Orders status"
+msgstr "Статус поръчки"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:738
+msgid "New"
+msgstr "Нов"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:740
+msgid "For packaging"
+msgstr "За пакетиране"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:741
+msgid "Packed"
+msgstr "Пакетирано"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:742
+msgid "Invoice created"
+msgstr "Фактурата беше създадена"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:743
+msgid "Shipped"
+msgstr "Дата на изпращане"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:744
+msgid "Returned"
+msgstr "Върнат"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:893
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/ChatController.php:269
+msgid "Back"
+msgstr "Обратно"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:895
+msgid "Generate Order"
+msgstr "Генериране на поръчка"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:896
+msgid "Generate Orders    "
+msgstr "Генериране на поръчка"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:898
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:3211
+msgid "Feedback"
+msgstr "Отзиви"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:908
+msgid "Customer information"
+msgstr "Информация за клиента"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:911
+msgid "Set height"
+msgstr "Добави празно място"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:912
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:917
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:966
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:970
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:974
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:3215
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:209
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:439
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:589
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:51
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:239
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:396
+msgid "Save"
+msgstr "Запази"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:916
+msgid "Set emergency"
+msgstr "Добави спешен статус"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:921
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1974
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2514
+msgid "Scheduled to ship"
+msgstr "Планувана доставка"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:925
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1968
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:3170
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:3207
+msgid "Order"
+msgstr "Поръчка"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:929
+msgid "With Order"
+msgstr "С поръчка/и"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:933
+msgid "More than one adress"
+msgstr "Повече от един адрес"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:937
+msgid "Date of order"
+msgstr "Дата на поръчка"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:941
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1964
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/HistoryController.php:46
+msgid "Adress"
+msgstr "Адрес"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:945
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1970
+msgid "Buyer"
+msgstr "Купувач"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:949
+msgid "Paid Date"
+msgstr "Дата на плащане"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:953
+msgid "Shipped Date"
+msgstr "Дата на изпращане"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:958
+msgid "Notes / Quantity"
+msgstr "Бележки/ Количество"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:961
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1992
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2516
+msgid "Standard Yes / No"
+msgstr "Стандартна Да / Не"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:965
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1996
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2537
+msgid "Note buyer"
+msgstr "Бележка от купувача"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:969
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2000
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2547
+msgid "Note seller"
+msgstr "Бележка от продавача"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:973
+msgid "Other adress / Phone"
+msgstr "Друг адрес/телефон"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:977
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1976
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2515
+msgid "Number of products in order"
+msgstr "Брой продукти в поръчка"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:981
+msgid "Comments have priority over everything else!"
+msgstr "Коментарите са с приорирет пред всичко останало!"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:985
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2012
+msgid "Products information"
+msgstr "Информация за продукта"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:994
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2016
+msgid "Name En"
+msgstr "Име ЕН"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:998
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2017
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2557
+msgid "Name Bg"
+msgstr "Име БГ"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1002
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:42
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:229
+msgid "SKU"
+msgstr "Каталожен номер"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1014
+msgid "Materials"
+msgstr "Материали"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1022
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1026
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2023
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2564
+msgid "Image"
+msgstr "Снимка"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1030
+msgid "Made by"
+msgstr "Направено от"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1036
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2102
+msgid "Checked by"
+msgstr "Проверено от"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1042
+msgid "Progress"
+msgstr "Прогрес"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1065
+msgid "Previous"
+msgstr "Предишна"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1066
+msgid "Next"
+msgstr "Следваща"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1171
+msgid "Please choose"
+msgstr "Моля избери"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1171
+msgid "Display"
+msgstr "Покажи"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1383
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1399
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:3229
+msgid "Successful"
+msgstr "Успех"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1383
+msgid "The status was changed!"
+msgstr "Статуса бе променен!"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1399
+msgid "The assignment was successfully set!"
+msgstr "Заданието беше успешно!"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1478
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2187
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2700
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2853
+msgid "The customer have more than one adress"
+msgstr "Клиента има повече от един адрес"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1483
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2192
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2705
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2858
+msgid "You do not have permissions to see this!"
+msgstr "Нямате право да виждате това!"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1514
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1525
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1527
+msgid "In progress"
+msgstr "В прогрес"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1515
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1532
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1534
+msgid "Ready"
+msgstr "Готов"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1663
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1707
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:3000
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:189
+msgid "Succes"
+msgstr "Успех"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1663
+msgid "Your comment was added."
+msgstr "Коментара беше добавен успешно."
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1707
+msgid "The new adress was added."
+msgstr "Беше добавен нов адрес."
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1774
+msgid "Generate single order list"
+msgstr "Генериране списък единичен изглед"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1775
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:198
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:428
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:578
+msgid "Generate single order"
+msgstr "Генериране на единична поръѝка"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1791
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2330
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:200
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:430
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:580
+msgid "Generate orders list"
+msgstr "Генериране списък поръчки"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1958
+msgid "For the order"
+msgstr "За поръчката"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1962
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2513
+msgid "Date of purchese"
+msgstr "Дата на покупката"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1980
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2444
+msgid "With order/s"
+msgstr "С поръчка/и"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:1988
+msgid "Notes"
+msgstr "Бележки"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2004
+msgid "New adress/phone"
+msgstr "Нов адрес/телефон"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2018
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2558
+msgid "Номер"
+msgstr "Номер"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2021
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2561
+msgid "Материя"
+msgstr "Материя"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2022
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2562
+msgid "Кол"
+msgstr "Кол"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2049
+msgid "Control"
+msgstr "Контрол"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2055
+msgid "Folded by"
+msgstr "Измерено от"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2064
+msgid "Bust"
+msgstr "Гръдна обиколка"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2066
+msgid "Waist"
+msgstr "Талия"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2068
+msgid "Hip"
+msgstr "Ханш"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2070
+msgid "Biceps"
+msgstr "Бицепс"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2072
+msgid "Height"
+msgstr "Височина"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2077
+msgid "Lenght"
+msgstr "Дължина"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2079
+msgid "Inseam"
+msgstr "Инсим"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2081
+msgid "Lenght sleev"
+msgstr "Дължина ръкав"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2083
+msgid "Others"
+msgstr "Други"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2085
+msgid "Shoulder to shoulder"
+msgstr "От рамо до рамо"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2094
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2098
+msgid "Packed by"
+msgstr "Пакетирано от"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2110
+msgid "Specific by model"
+msgstr "Специфика на модела"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2314
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2318
+msgid "Generate orders"
+msgstr "Генериране на поръчка"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2326
+msgid "Cut"
+msgstr "Изрежи"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:2563
+msgid "Кройка"
+msgstr "Кройка"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:3000
+msgid "The height was set."
+msgstr "Зададохте успешно празно място"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:3167
+msgid "Order History"
+msgstr "История на поръчките"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:3168
+msgid "Show history"
+msgstr "Покажи историята"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:3173
+msgid "Tasks"
+msgstr "Задачи"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:3204
+msgid "Order Feedback"
+msgstr "Отзиви за поръчката"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:3205
+msgid "Show feedback"
+msgstr "Покажи отзивите"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:3212
+msgid "Good"
+msgstr "Положителен"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:3213
+msgid "None"
+msgstr "Няма"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:3214
+msgid "Bad"
+msgstr "Отрицателен"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/OrderController.php:3229
+msgid "The feedback was added!"
+msgstr "Отзива беше добавен!"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/AuthenticationController.php:28
+msgid "Sign In Page"
+msgstr "Вход"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/AuthenticationController.php:29
+msgid "Please sign in"
+msgstr "Моля, индетефицирайте се"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/AuthenticationController.php:30
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:166
+msgid "Username"
+msgstr "Име"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/AuthenticationController.php:31
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:167
+msgid "Password"
+msgstr "Парола"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/AuthenticationController.php:32
+msgid "Login"
+msgstr "Вход"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/AuthenticationController.php:95
+msgid "The user name or/and password is incorrect"
+msgstr "Името и/или паролата са грешни"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:41
+msgid "Display Users"
+msgstr "Покажи потребителите"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:45
+msgid "List of users"
+msgstr "Списък с потребители"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:46
+msgid "Select department"
+msgstr "Изберете отдел"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:51
+msgid "Management"
+msgstr "Ръководство"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:52
+msgid "Show"
+msgstr "Покажи"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:54
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:64
+msgid "Mail"
+msgstr "Поща"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:56
+msgid "Permissions"
+msgstr "Права"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:57
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:72
+msgid "Profile"
+msgstr "Профил"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:58
+msgid "It Department"
+msgstr "ИТ отдел"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:168
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:546
+msgid "Display User"
+msgstr "Покажи потребителя"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:172
+msgid "UserName"
+msgstr "Име"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:174
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:404
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:552
+msgid "Invoices history"
+msgstr "История на фактуриранията"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:175
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:405
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:553
+msgid "allowes user to see created invoices"
+msgstr "дава възможност на потребителя да види създадените фактури"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:177
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:407
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:555
+msgid "Views"
+msgstr "Вижда"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:179
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:409
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:557
+msgid "View & Edit"
+msgstr "Преглед & редакция"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:181
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:411
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:561
+msgid "allowes user to see actions of users in departments"
+msgstr "дава възможност на потребителя да види действията на потребителите в отделите"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:183
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:413
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:563
+msgid "allowes users to see the actions of users for orders"
+msgstr "дава възможност на потребителите да виждат действията на потребителите в поръчки"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:186
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:195
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:416
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:425
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:566
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:575
+msgid "allowes user to see orders"
+msgstr "дава възможност на потребителя да види поръчките"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:188
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:418
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:568
+msgid "allowes user to generate invoices"
+msgstr "дава възможност на потребителя да генерира фактури"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:191
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:421
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:571
+msgid "allowes user to upload new orders"
+msgstr "дава възможност на потребителя да качите нови поръчки"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:193
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:423
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:573
+msgid "allowes user to upload new customers"
+msgstr "дава възможност на потребителя да качи нови клиенти"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:194
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:424
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:574
+msgid "See orders"
+msgstr "Виж поръчките"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:196
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:426
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:576
+msgid "Edit order"
+msgstr "Редакция на поръчка"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:197
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:427
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:577
+msgid "allowes user to write and edit comments"
+msgstr "дава възможност на потребителя да пише и редактира коментари"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:199
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:429
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:579
+msgid "allowes user to generate list with single orders"
+msgstr "дава възможност на потребителя да генерира списък с единични поръчки"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:201
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:431
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:581
+msgid "allowes user to generate list with orders"
+msgstr "дава възможност на потребителя да генерира списък с поръчки"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:202
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:432
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:582
+msgid "Display more than one adrees"
+msgstr "Покажи адресите които са повече от един"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:203
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:433
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:583
+msgid "allowes user to see this information"
+msgstr "дава възможност на потребителя да види тази информация"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:204
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:434
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:584
+msgid "Messages / Mail"
+msgstr "Съобщения"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:205
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:435
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:585
+msgid "Clients"
+msgstr "Клиенти"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:206
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:436
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:586
+msgid "allowes user to send autogenerated mails to clients"
+msgstr "дава възможност на потребителя да изпраща автоматично генерирани писма до клиенти"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:208
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:438
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:588
+msgid "allowes user to send message to all users from selected department"
+msgstr "дава възможност на потребителя да изпраща съобщение до всички потребители от избрания отдел"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:211
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:441
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:591
+msgid "allowes user to see logs"
+msgstr "позволява на потребителя да вижда логовете"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:214
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:444
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:594
+msgid "allowes user to see available items/products"
+msgstr "позволява на потребителя да вижда артикулите"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:300
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:526
+msgid "Permissions was updated!"
+msgstr "Правата бяха обновени"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:337
+msgid "Display Departments"
+msgstr "Покажи отделите"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:399
+msgid "Display Department"
+msgstr "Покажи отделите"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:402
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:68
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:162
+msgid "Department"
+msgstr "Отдели"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:550
+msgid "Create Department"
+msgstr "Създай отдел"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:559
+msgid "Department name:"
+msgstr "Име на отдела:"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:560
+msgid "Enter department name"
+msgstr "Веведете име на отдела"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/PermissionController.php:695
+msgid "New department was created!"
+msgstr "Беше създаден нов отдел"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/ChatController.php:267
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/ChatController.php:270
+msgid "Chat"
+msgstr "Чат"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/ChatController.php:271
+msgid "RECENT CHAT HISTORY"
+msgstr "Скорошна чат история"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/ChatController.php:272
+msgid "User profile"
+msgstr "Потребителски профил"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/ChatController.php:273
+msgid "Enter Message"
+msgstr "Въведете съобщение"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/ChatController.php:274
+msgid "SEND"
+msgstr "Изпрати"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/ChatController.php:275
+msgid "RECENT CHATS"
+msgstr "Скорошни чарове"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/HistoryController.php:47
+msgid "Created"
+msgstr "Създадена"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/HistoryController.php:50
+msgid "History invoices"
+msgstr "История фактури"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/HistoryController.php:51
+msgid "Show generated invoices"
+msgstr "Покажи генерираните поръѝки"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/HistoryController.php:114
+msgid "There is no created invoices for this order!"
+msgstr "Няма създадени фактури за тази поръчка!"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:43
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:230
+msgid "Group No"
+msgstr "Група"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:44
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:231
+msgid "Item No"
+msgstr "Артикул"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:45
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:232
+msgid "Cut No"
+msgstr "Кройка"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:46
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:233
+msgid "Group Desc EN"
+msgstr "Описание на групата EN"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:47
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:234
+msgid "Group Desc BG"
+msgstr "Описание на групата BG"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:48
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:235
+msgid "Item Desc EN"
+msgstr "Описание на артикула EN"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:49
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:236
+msgid "Item Desc BG"
+msgstr "Описание на артикула BG"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:52
+msgid "Add row"
+msgstr "Нов ред"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:53
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:237
+msgid "Image 1"
+msgstr "Снимка 1"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:54
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:238
+msgid "Image 2"
+msgstr "Снимка 2"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:55
+msgid "Show image"
+msgstr "Покажи снимка"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:189
+msgid "Done"
+msgstr "Готов"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/StoreHouseController.php:227
+msgid "Edit"
+msgstr "Редакция"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:62
+msgid "My profile"
+msgstr "Моя профил"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:63
+msgid "Edit profile"
+msgstr "Редакция на профил"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:65
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:159
+msgid "Personal phone"
+msgstr "Персонален телефон"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:66
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:160
+msgid "Work phone"
+msgstr "Служебен телефон"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:67
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:161
+msgid "Job position"
+msgstr "Позиция в фирмата"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:69
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:163
+msgid "Last seen"
+msgstr "Последно видян"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:70
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:164
+msgid "Joined the company"
+msgstr "Пресиъединил се в фирмата"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:71
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:165
+msgid "Birthday"
+msgstr "Рожден ден"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:73
+msgid "Recent Activities"
+msgstr "Скорошна активност"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:155
+msgid "Edit/Create user"
+msgstr "Редакция/Създаване на потребител"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:156
+msgid "First name"
+msgstr "Име"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:157
+msgid "Last name"
+msgstr "Фамилия"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:158
+msgid "Email"
+msgstr "Емейл"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:168
+msgid "Confirm password"
+msgstr "Потвърдете паролата"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:169
+msgid "Upload a different photo"
+msgstr "Качване на друга снимка"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:171
+msgid "Picture"
+msgstr "Снимка"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:357
+msgid "The user was created!"
+msgstr "Потребителя беше успешно създаден"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:362
+msgid "The user was successfully updated!"
+msgstr "Потребителя беше успено обновен"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:367
+msgid "The passwords didn't match, try again!"
+msgstr "Паролите не съвпаднаха, моля пробвайте отново!"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:394
+msgid "User"
+msgstr "Потребител"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:395
+msgid "Add More Bookmarks"
+msgstr "Добави още любими"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:398
+msgid "Link"
+msgstr "Връзка"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:399
+msgid "Remove"
+msgstr "Премахни"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:499
+msgid "The bookmarks was successfully updated!"
+msgstr "Успешно обновихте `Любими`!"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/UserController.php:501
+msgid "You are not logged!"
+msgstr "Не сте се идентифицирали!"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/EmailController.php:40
+msgid "Emails"
+msgstr "Имейли"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/EmailController.php:48
+msgid "Upload emails"
+msgstr "Kaчване на имейли"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/controllers/EmailController.php:49
+msgid "Upload emails file"
+msgstr "Качване на файл с имейли"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/helpers/date.php:38
+msgid "year"
+msgstr "година"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/helpers/date.php:38
+msgid "years"
+msgstr "години"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/helpers/date.php:42
+msgid "month"
+msgstr "месец"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/helpers/date.php:42
+msgid "months"
+msgstr "месеца"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/helpers/date.php:46
+msgid "day"
+msgstr "ден"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/helpers/date.php:46
+msgid "days"
+msgstr "дни"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/helpers/date.php:50
+msgid "hour"
+msgstr "час"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/helpers/date.php:50
+msgid "hours"
+msgstr "часа"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/helpers/date.php:54
+msgid "minute"
+msgstr "минута"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/helpers/date.php:54
+msgid "minutes"
+msgstr "минути"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/helpers/date.php:59
+msgid "по-малко от минута"
+msgstr "по-малко от минута"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/helpers/date.php:61
+msgid "second"
+msgstr "секудна"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/helpers/date.php:61
+msgid "seconds"
+msgstr "секунди"
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/helpers/date.php:69
+msgid " and "
+msgstr " и "
+
+#: /home/realdark/PhpstormProjects/appdev.aakasha.com/app/models/Order.php:263
+msgid "Item `"
+msgstr "Артикул"
+
+#~ msgid "Select progress"
+#~ msgstr "Изберете прогреса"
+
+#~ msgid "Ongoing"
+#~ msgstr "В движение"
+
+#~ msgid "Closed order"
+#~ msgstr "Затворена поръчка"
+
+#~ msgid "Returned order"
+#~ msgstr "Върната поръчка"
+
+#~ msgid "Checked"
+#~ msgstr "Проверено"
+
+#~ msgid "Prepared by"
+#~ msgstr "Изготвено от"
+
+#~ msgid "For notes"
+#~ msgstr "Забележки"
+
+#~ msgid "к-ло."
+#~ msgstr "к-ло."
+
+#~ msgid "Copy"
+#~ msgstr "Копиране"
+
+#~ msgid "One of the items from order number "
+#~ msgstr "Един от артикулите от поръчка номер"
+
+#~ msgid "Reply"
+#~ msgstr "Отговори"
+
+#~ msgid "Българкси"
+#~ msgstr "Българкси"
+
+#~ msgid "Английски"
+#~ msgstr "Английски"
+
+#~ msgid "Руски"
+#~ msgstr "Руски"
+
+#~ msgid "преди"
+#~ msgstr "преди"
+
+#~ msgid "This Category is currently empty."
+#~ msgstr "Тази категория е празна,"
+
+#~ msgid "Video sharing"
+#~ msgstr "Видео споделяне"
+
+#~ msgid "before"
+#~ msgstr "преди"
+
+#~ msgid "Published by"
+#~ msgstr "Публикуван от"
+
+#~ msgid "on"
+#~ msgstr "на"
+
+#~ msgid "views"
+#~ msgstr "гледания"
+
+#~ msgid "Share"
+#~ msgstr "Сподели"
+
+#~ msgid "Language:"
+#~ msgstr "Език:"
+
+#~ msgid "Show description"
+#~ msgstr "Покажи описание"
+
+#~ msgid "Post"
+#~ msgstr "Публикувай"
+
+#~ msgid "comments on"
+#~ msgstr "коментара за"
+
+#~ msgid "Hide description"
+#~ msgstr "Скрий описанието"
+
+#~ msgid "To use this feature, log in to your account."
+#~ msgstr "За да ползваш тази функция, влез в профила си."
+
+#~ msgid "You have already voted for this video."
+#~ msgstr "Вече сте гласували за този видео клип,"
+
+#~ msgid "Browse categories"
+#~ msgstr "Преглед на категориите"
+
+#~ msgid "email"
+#~ msgstr "имейл"
+
+#~ msgid "password"
+#~ msgstr "парола"
+
+#~ msgid "Log In"
+#~ msgstr "Вход"
+
+#~ msgid "Login with Facebook"
+#~ msgstr "Влез чрез Facebook"
+
+#~ msgid "Don't have an account!"
+#~ msgstr "Нямаш профил!"
+
+#~ msgid "Sign Up Here"
+#~ msgstr "Регистрирай се от тук"
+
+#~ msgid "Sign Up"
+#~ msgstr "Регистрация"
+
+#~ msgid "Forgot Password"
+#~ msgstr "Забравена парола"
+
+#~ msgid "Send"
+#~ msgstr "Изпрати"
+
+#~ msgid "Email address you use to log in to your account."
+#~ msgstr "Имейл адреса който ползвате за вход в системата,"
+
+#~ msgid "We'll send you an email with instructions to choose a new password."
+#~ msgstr "Ще ви изпратим имейл с инструкции за избор на нова парола"
+
+#~ msgid "Hello, <br><br>Your registration for "
+#~ msgstr "Здравей, <br><br>Вашата регистрация за"
+
+#~ msgid "Email:"
+#~ msgstr "Имейл:"
+
+#~ msgid "Password:"
+#~ msgstr "Парола:"
+
+#~ msgid "Regards, <br>Team of "
+#~ msgstr "Поздрави, <br>Екипът на"
+
+#~ msgid "Successful registration"
+#~ msgstr "Успешна регистрация"
+
+#~ msgid "The email is occupied."
+#~ msgstr "Имейл адреса е зает,"
+
+#~ msgid "The username and / or password are wrong! Please try again."
+#~ msgstr "Имейл адреса или паролата са грешни! Моля опитайте отново."
+
+#~ msgid ""
+#~ "Hello, <br><br>You can find your new password a little down in this "
+#~ "message!"
+#~ msgstr ""
+#~ "Здравей,<br><br> Може да намериш своята парола малко по-даноду в това "
+#~ "съобщение!"
+
+#~ msgid "New Password"
+#~ msgstr "Нова парола"
+
+#~ msgid "A new password has been sent to your e-mail address."
+#~ msgstr "Нова парола беше изпратена на вашия имейл адрес."
+
+#~ msgid "No such user in the site. Please try again!"
+#~ msgstr "Няма такъв потребител в сайта. Моля опитайте отново!"
+
+#~ msgid "Upload"
+#~ msgstr "Качване"
+
+#~ msgid "What to watch"
+#~ msgstr "Какво да гледам"
+
+#~ msgid "Best of"
+#~ msgstr "Най-доброто от"
+
+#~ msgid "Popular"
+#~ msgstr "Популярни"
+
+#~ msgid "Latest Vieos"
+#~ msgstr "Последно качени"
+
+#~ msgid "Right Now"
+#~ msgstr "В момента"
+
+#~ msgid "Recommended"
+#~ msgstr "Препоръчани"
+
+#~ msgid "Browse Categories"
+#~ msgstr "Преглед на категориите"
+
+#~ msgid "Sign in now to see your videos and preferences!"
+#~ msgstr "Влез в профила си за да видиш своите видео клипове и предпочитания"
+
+#~ msgid "Designed and build by Boris Lazarov &copy; 2014"
+#~ msgstr "Дизайн и изработка Борис Лазаров &copy; 2014"
+
+#~ msgid "Favourites"
+#~ msgstr "Любими"
+
+#~ msgid "Settings"
+#~ msgstr "Настройки"
+
+#~ msgid "Sign Out"
+#~ msgstr "Изход"
+
+#~ msgid "OPPS, Error 404!"
+#~ msgstr "ОППС, Грешка 404!"
+
+#~ msgid "Contact Support"
+#~ msgstr "Свържете се с екипа"
+
+#~ msgid "Theere is some error here, Please try later."
+#~ msgstr "Възника грешка, моля опитайте отново."
+
+#~ msgid "seacrh ..."
+#~ msgstr "търсене..."
+
+#~ msgid "Return to Website"
+#~ msgstr "Върни се в сайта"
+
+#~ msgid "An error occured, The error has been reported."
+#~ msgstr "Възникна греша. Грешката беше изпратена на екипа по подръжка,"
+
+#~ msgid "година"
+#~ msgstr "година"
+
+#~ msgid "години"
+#~ msgstr "години"
+
+#~ msgid "месец"
+#~ msgstr "месец"
+
+#~ msgid "месеца"
+#~ msgstr "месеца"
+
+#~ msgid "ден"
+#~ msgstr "ден"
+
+#~ msgid "дена"
+#~ msgstr "дена"
+
+#~ msgid "час"
+#~ msgstr "час"
+
+#~ msgid "часа"
+#~ msgstr "часа"
+
+#~ msgid "минута"
+#~ msgstr "минута"
+
+#~ msgid "минути"
+#~ msgstr "минути"
+
+#~ msgid "секунда"
+#~ msgstr "секунда"
+
+#~ msgid "секунди"
+#~ msgstr "секунди"
+
+#~ msgid "Отговор"
+#~ msgstr "Отговор"
+
+#~ msgid "Последни филми"
+#~ msgstr "Последни филми"
+
+#~ msgid "Най-популярни"
+#~ msgstr "Най-популярни"
+
+#~ msgid "Разгледайте"
+#~ msgstr "Разгледайте"
+
+#~ msgid "В момента"
+#~ msgstr "В момента"
+
+#~ msgid "Препоръчано"
+#~ msgstr "Препоръчано"
+
+#~ msgid "Начало"
+#~ msgstr "Начало"
+
+#~ msgid "Категории"
+#~ msgstr "Категории"
+
+#~ msgid "Блог"
+#~ msgstr "Блог"
+
+#~ msgid "Изход"
+#~ msgstr "Изход"
+
+#~ msgid "Качване"
+#~ msgstr "Качване"
+
+#~ msgid "Нов профил"
+#~ msgstr "Нов профил"
+
+#~ msgid "Вход"
+#~ msgstr "Вход"
+
+#~ msgid "Създаване на нов акаунт"
+#~ msgstr "Създаване на нов акаунт"
+
+#~ msgid "Грешка"
+#~ msgstr "Грешка"
+
+#~ msgid ""
+#~ "След 10 секунди ще бъдете пренасочени авотматично към страницата за "
+#~ "регистрация."
+#~ msgstr ""
+#~ "След 10 секунди ще бъдете пренасочени авотматично към страницата за "
+#~ "регистрация."
+
+#~ msgid ""
+#~ "Здравей, <br><br>регистрацията ти в сайта за споделяне на документални "
+#~ "филми "
+#~ msgstr ""
+#~ "Здравей, <br><br>регистрацията ти в сайта за споделяне на документални "
+#~ "филми "
+
+#~ msgid "Информация"
+#~ msgstr "Информация"
+
+#~ msgid "Потребител:"
+#~ msgstr "Потребител:"
+
+#~ msgid "Парола:"
+#~ msgstr "Парола:"
+
+#~ msgid "Страница за вход:"
+#~ msgstr "Страница за вход:"
+
+#~ msgid "Поздрави, <br>Екипът на "
+#~ msgstr "Поздрави, <br>Екипът на "
+
+#~ msgid "Успешна регистрация"
+#~ msgstr "Успешна регистрация"
+
+#~ msgid ""
+#~ "Вашата регистрация премина успешно! На посочения от вас имейл ще попучите "
+#~ "информация за акаунта си."
+#~ msgstr ""
+#~ "Вашата регистрация премина успешно! На посочения от вас имейл ще попучите "
+#~ "информация за акаунта си."
+
+#~ msgid ""
+#~ "След 10 секунди ще бъдете пренасочени авотматично към главната страница "
+#~ "на сайта."
+#~ msgstr ""
+#~ "След 10 секунди ще бъдете пренасочени авотматично към главната страница "
+#~ "на сайта."
+
+#~ msgid "Потребителското име е заето"
+#~ msgstr "Потребителското име е заето"
+
+#~ msgid "Имейла е зает"
+#~ msgstr "Имейла е зает"
+
+#~ msgid "Вход в сайта"
+#~ msgstr "Вход в сайта"
+
+#~ msgid ""
+#~ "След 10 секунди ще бъдете пренасочени авотматично към страница за "
+#~ "индетефикация."
+#~ msgstr ""
+#~ "След 10 секунди ще бъдете пренасочени авотматично към страница за "
+#~ "индетефикация."
+
+#~ msgid "Забравена парола"
+#~ msgstr "Забравена парола"
+
+#~ msgid ""
+#~ "След 10 секунди ще бъдете пренасочени авотматично към страница за "
+#~ "възтановяване на парола"
+#~ msgstr ""
+#~ "След 10 секунди ще бъдете пренасочени авотматично към страница за "
+#~ "възтановяване на парола"
+
+#~ msgid ""
+#~ "Здравей, <br><br>можеш да намериш своята нова парола малко по надолу в "
+#~ "това съобщение!"
+#~ msgstr ""
+#~ "Здравей, <br><br>можеш да намериш своята нова парола малко по надолу в "
+#~ "това съобщение!"
+
+#~ msgid "Нова парола"
+#~ msgstr "Нова парола"
+
+#~ msgid "Успех"
+#~ msgstr "Успех"
+
+#~ msgid ""
+#~ "На посочения от вас имейл адрес беше изпратена новата ви парола. По всяко "
+#~ "време може да я смените от менюто за настройки."
+#~ msgstr ""
+#~ "На посочения от вас имейл адрес беше изпратена новата ви парола. По всяко "
+#~ "време може да я смените от менюто за настройки."
+
+#~ msgid "Видео споделяне на документални филми"
+#~ msgstr "Видео споделяне на документални филми"
+
+#~ msgid "харесвания"
+#~ msgstr "харесвания"
+
+#~ msgid "харесване"
+#~ msgstr "харесване"
+
+#~ msgid "не харесвания"
+#~ msgstr "не харесвания"
+
+#~ msgid "не харесване"
+#~ msgstr "не харесване"
+
+#~ msgid "Показване на по-малко"
+#~ msgstr "Показване на по-малко"
+
+#~ msgid "Показване на още"
+#~ msgstr "Показване на още"
+
+#~ msgid "Първо трябва да се индетифицирате в сайта"
+#~ msgstr "Първо трябва да се индетифицирате в сайта"
+
+#~ msgid "Вече сте гласували за това видео"
+#~ msgstr "Вече сте гласували за това видео"
+
+#~ msgid "Гласуването беше отчетено"
+#~ msgstr "Гласуването беше отчетено"
+
+#~ msgid "След 10 секунди ще бъдете пренасочени авотматично към видео клипа."
+#~ msgstr "След 10 секунди ще бъдете пренасочени авотматично към видео клипа."
+
+#~ msgid "Грешка. Моля свържете се с администратора за да бъде отсранена!"
+#~ msgstr "Грешка. Моля свържете се с администратора за да бъде отсранена!"
+
+#~ msgid "Създаване на акаунт"
+#~ msgstr "Създаване на акаунт"
+
+#~ msgid ""
+#~ "За да получите пълен достъп до сайта, моля регистрирайте се от формата по-"
+#~ "долу."
+#~ msgstr ""
+#~ "За да получите пълен достъп до сайта, моля регистрирайте се от формата по-"
+#~ "долу."
+
+#~ msgid "Име:"
+#~ msgstr "Име:"
+
+#~ msgid "Фамилия:"
+#~ msgstr "Фамилия:"
+
+#~ msgid "Имейл:"
+#~ msgstr "Имейл:"
+
+#~ msgid "Регистрация"
+#~ msgstr "Регистрация"
+
+#~ msgid "от"
+#~ msgstr "от"
+
+#~ msgid "Харесвам"
+#~ msgstr "Харесвам"
+
+#~ msgid "Не харесвам"
+#~ msgstr "Не харесвам"
+
+#~ msgid "Добави в плейлиста"
+#~ msgstr "Добави в плейлиста"
+
+#~ msgid "Докладване"
+#~ msgstr "Докладване"
+
+#~ msgid "показвания"
+#~ msgstr "показвания"
+
+#~ msgid "Качен от"
+#~ msgstr "Качен от"
+
+#~ msgid "на"
+#~ msgstr "на"
+
+#~ msgid "Категория:"
+#~ msgstr "Категория:"
+
+#~ msgid "Език:"
+#~ msgstr "Език:"
+
+#~ msgid "Продукция на:"
+#~ msgstr "Продукция на:"
+
+#~ msgid "Имаш ли да кажеш нещо?"
+#~ msgstr "Имаш ли да кажеш нещо?"
+
+#~ msgid "Въведете своя коментар тук..."
+#~ msgstr "Въведете своя коментар тук..."
+
+#~ msgid "Коментирай"
+#~ msgstr "Коментирай"
+
+#~ msgid "За да коментираш първо трябва да влезеш в системата!"
+#~ msgstr "За да коментираш първо трябва да влезеш в системата!"
+
+#~ msgid "Показване на"
+#~ msgstr "Показване на"
+
+#~ msgid "коментара"
+#~ msgstr "коментара"
+
+#~ msgid "Най-стари"
+#~ msgstr "Най-стари"
+
+#~ msgid "Сортиране по:"
+#~ msgstr "Сортиране по:"
+
+#~ msgid ""
+#~ "За да получите пълен достъп до сайта, моля идентифицирайте се от формата "
+#~ "по-долу."
+#~ msgstr ""
+#~ "За да получите пълен достъп до сайта, моля идентифицирайте се от формата "
+#~ "по-долу."
+
+#~ msgid ""
+#~ "За да зададете нова парола, въведете имейл адреса, който използвате за "
+#~ "влизане в профила си."
+#~ msgstr ""
+#~ "За да зададете нова парола, въведете имейл адреса, който използвате за "
+#~ "влизане в профила си."
+
+#~ msgid "Имейл"
+#~ msgstr "Имейл"
+
+#~ msgid "Изпращане"
+#~ msgstr "Изпращане"
+
+#~ msgid "Дами и господа"
+#~ msgstr "This is translate"
+
+#~ msgid "Тест нова версия"
+#~ msgstr "This is new version"

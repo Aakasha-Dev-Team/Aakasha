@@ -1,0 +1,101 @@
+<div class="wrap-fluid" style="width: auto; margin-left: 250px;">
+    <div class="container-fluid paper-wrap bevel tlbr">
+        <!--TITLE -->
+        <div class="row">
+            <div id="paper-top">
+                <div class="col-sm-12">
+                    <h2 class="tittle-content-header">
+                    <i class="icon-document-edit"></i>
+                    <span>{Generate orders list}</span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <!--/ TITLE -->
+        <!-- BREADCRUMB -->
+        <ul id="breadcrumb">
+            <li>
+                <span class="entypo-home"></span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="/" title="Home">Home</a>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <span>{Orders}</span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="#" title="Invoice generation">{Generate}</a>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="#" title="Invoice generation">{Orders list}</a>
+            </li>
+        </ul>
+        <!-- END OF BREADCRUMB -->
+        <div class="row" style="padding:0 30px;">
+            <div class="col-sm-12">
+                <div class="nest" id="inlineClose">
+                    <div class="title-alt">
+                        <h6>{Generate orders list}</h6>
+                        <!--
+                        <div class="titleClose">
+                            <a class="gone" href="#inlineClose">
+                                <span class="entypo-cancel"></span>
+                            </a>
+                        </div> -->
+                        <div class="titleToggle">
+                            <a class="nav-toggle-alt" href="#inline">
+                                <span class="entypo-up-open"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="body-nest" id="inline">
+                        <div class="orders_dates simple_info_table" style="width:100%; clear:both">
+                            <div class="form_center">
+                                <form role="form" class="form-inline">
+                                    <div class="form-group">
+                                        <label for="from_date">{from date}</label><br>
+                                        <input type="text" data-format="yyyy-MM-dd" class="form-control" id="from_date" value="{start_date}">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="to_date">{to date}</label><br>
+                                        <input type="text" data-format="yyyy-MM-dd" class="form-control" id="to_date" value="{end_date}">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="order-standart">{Select type}</label><br>
+                                        <select id="order-standart" name="standart" class="form-control">
+                                          <option value="" disabled>{Standart}</option>
+                                          <option value="all" selected>{All}</option>
+                                          <option value="true">{Yes}</option>
+                                          <option value="false">{No}</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="order-status">{Select status}</label><br>
+                                        <select id="order-status" name="status" class="form-control">
+                                          <option value="" disabled>{Status}</option>
+                                          <option value="all">{All}</option>
+                                          <option value="active"  selected>{Active}</option>
+                                          <option value="completed">{Completed}</option>
+                                        </select>
+                                    </div>
+                                    <button class="btn btn-primary" id="generate" style="MARGIN-TOP: 23px;">{Generate}</button>
+                                    <button type="button" id="close" name="close" style="MARGIN-TOP: 23px;" class="btn btn-warning">{Close}</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

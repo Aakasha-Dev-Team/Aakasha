@@ -1,0 +1,28 @@
+<div class="container">
+    <ul class="nav nav-tabs nav-justified">
+      <li role="presentation" class="active"><a href="/orders/index">{Import}</a></li>
+      <li role="presentation"><a href="#">{Export}</a></li>
+      <li role="presentation"><a href="/orders/display_orders">{Orders listing}</a></li>
+    </ul>
+    
+    
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <form role="form">
+                <div class="form-group upload_file">
+                    <label for="exampleInputFile">{File input}</label><br>
+                    
+                    <div class="fileUpload btn btn-default">
+                        <span>Click to select file</span>
+                        <input id="file" type="file" class="upload" />
+                    </div>
+                    <input id="uploadFile" placeholder="Choose File" disabled="disabled" />
+                </div>
+
+                <button type="submit" class="btn btn-info">{Submit}</button>
+                <button id="show-details" class="btn btn-warning">{Show Details}</button>
+            </form>
+            <div id="response"></div>
+        </div>
+    </div>
+</div>

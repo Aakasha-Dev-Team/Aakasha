@@ -1,0 +1,62 @@
+<div class="container">
+    <ul class="nav nav-tabs nav-justified">
+        <li role="presentation"><a href="/orders/generate_invoice/0">{Generate Invoice}</a></li>
+        <li role="presentation"><a href="/orders/generate_order/0">{Generate order}</a></li>
+        <li role="presentation" class="active"><a href="/orders/generate_orders">{Generade orders list}</a></li>
+    </ul>
+    <div class="panel panel-default generate_orders">
+        <div class="panel-body">
+            <br>
+            <div class="content">
+                <form class="form-inline" role="form">
+                    <div class="col-md-8">
+                    <div class="input-group">
+                        <div class="col-md-3">
+                            <div id="from_date" class="input-append">
+                                <input data-format="yyyy-MM-dd" style="width: 110px;" type="text" placeholder="{from date}" value="{start_date}"></input>
+                                <span class="add-on">
+                                <i class="glyphicon glyphicon-calendar" data-time-icon="icon-time" data-date-icon="icon-calendar"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div id="to_date" class="input-append">
+                                <input data-format="yyyy-MM-dd" style="width: 110px;" type="text" placeholder="{to date}" value="{end_date}"></input>
+                                <span class="add-on">
+                                <i class="glyphicon glyphicon-calendar" data-time-icon="icon-time" data-date-icon="icon-calendar"></i>
+                                </span>
+                            </div>
+                        </div>
+                
+                        <div class="col-md-2">
+                            <select id="order-standart" name="standart" style="width: 100px;" class="form-control">
+                              <option value="" disabled>{Standart}</option>
+                              <option value="all" selected>{All}</option>
+                              <option value="true">{Yes}</option>
+                              <option value="false">{No}</option>
+                            </select>
+                        </div>
+                
+                        <div class="col-md-2">
+                            <select id="order-status" name="status" style="width: 100px;" class="form-control">
+                              <option value="" disabled>{Status}</option>
+                              <option value="all" selected>{All}</option>
+                              <option value="active">{Active}</option>
+                              <option value="completed">{Completed}</option>
+                            </select>
+                        </div>
+                        <div class="col-md-1">
+                            <div class="form-group">
+                                <button class="btn btn-info" id="generate" type="button">{Generate}</button>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    </div>
+                </form>
+            </div>
+    </div>
+            
+
+    </div>
+</div>

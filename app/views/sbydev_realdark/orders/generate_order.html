@@ -1,0 +1,133 @@
+<div class="wrap-fluid" style="width: auto; margin-left: 250px;">
+    <div class="container-fluid paper-wrap bevel tlbr">
+        <!--TITLE -->
+        <div class="row">
+            <div id="paper-top">
+                <div class="col-sm-12">
+                    <h2 class="tittle-content-header">
+                    <i class="icon-document-edit"></i>
+                    <span>{Generate single order}</span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <!--/ TITLE -->
+        <!-- BREADCRUMB -->
+        <ul id="breadcrumb">
+            <li>
+                <span class="entypo-home"></span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="/" title="Home">Home</a>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <span>{Orders}</span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="#" title="Invoice generation">{Generate}</a>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="#" title="Invoice generation">{Single order}</a>
+            </li>
+        </ul>
+        <!-- END OF BREADCRUMB -->
+        <div class="row" style="padding:0 30px;">
+            <div class="col-sm-12">
+                <div class="nest" id="singleOrderClose">
+                    <div class="title-alt">
+                        <h6>{Generate order}</h6>
+                        <!--
+                        <div class="titleClose">
+                            <a class="gone" href="#inlineClose">
+                                <span class="entypo-cancel"></span>
+                            </a>
+                        </div> -->
+                        <div class="titleToggle">
+                            <a class="nav-toggle-alt" href="#singleOrder">
+                                <span class="entypo-up-open"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="body-nest" id="singleOrder">
+                        <div class="orders_dates simple_info_table" style="width:100%; clear:both">
+                            <div class="form_center">
+                                <form role="form" class="form-inline">
+                                    <div class="form-group" style="width:40%;">
+                                        <label for="from_date">{Enter the order number}</label><br>
+                                        <input type="number" id="order_number" class="order_number form-control" name="order_number" placeholder="{Enter the order number}" style="width:100%;"></input>
+                                        <label for="order_number" id="show-id-error" generated="true" class="error"><strong>{Warning!}</strong> {There is no such order number.}</label>
+                                    </div>
+                                    <button type="button" id="close" name="close" class="btn btn-warning fix-btn-js" style="MARGIN-TOP: 23px;">{Close}</button>
+                                    <button class="btn btn-primary fix-btn-js" type="button" id="generate" name="generate" style="MARGIN-TOP: 23px;">{Generate order}</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="nest" id="multipleSingleOrdersClose">
+                    <div class="title-alt">
+                        <h6>{Generate single orders list}</h6>
+                        <!--
+                        <div class="titleClose">
+                            <a class="gone" href="#inlineClose">
+                                <span class="entypo-cancel"></span>
+                            </a>
+                        </div> -->
+                        <div class="titleToggle">
+                            <a class="nav-toggle-alt" href="#multipleSingleOrders">
+                                <span class="entypo-up-open"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="body-nest" id="multipleSingleOrders">
+                        <div class="orders_dates simple_info_table" style="width:100%; clear:both; margin-top: 50px;">
+                            <div class="form_center">
+                                <form role="form" class="form-inline">
+                                    <div class="form-group">
+                                        <label for="from_date_single">{from date}</label><br>
+                                        <input type="text" class="form-control" id="from_date_single" value="{start_date}">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="to_date_single">{to date}</label><br>
+                                        <input type="text" class="form-control" id="to_date_single" value="{end_date}">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="order-standart_single">{Select type}</label><br>
+                                        <select id="order-standart_single" name="standart" class="form-control">
+                                          <option value="" disabled>{Standart}</option>
+                                          <option value="all" selected>{All}</option>
+                                          <option value="true">{Yes}</option>
+                                          <option value="false">{No}</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="order-status_single">{Select status}</label><br>
+                                        <select id="order-status_single" name="status" class="form-control">
+                                          <option value="" disabled>{Status}</option>
+                                          <option value="all">{All}</option>
+                                          <option value="active" selected>{Active}</option>
+                                          <option value="completed">{Completed}</option>
+                                        </select>
+                                    </div>
+                                    <button class="btn btn-primary" id="generate_single" style="MARGIN-TOP: 23px;">{Generate}</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>

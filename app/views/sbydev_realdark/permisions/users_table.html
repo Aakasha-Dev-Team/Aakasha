@@ -1,0 +1,109 @@
+<div class="wrap-fluid" style="width: auto; margin-left: 250px;">
+    <div class="container-fluid paper-wrap bevel tlbr">
+        <!--TITLE -->
+        <div class="row">
+            <div id="paper-top">
+                <div class="col-sm-12">
+                    <h2 class="tittle-content-header">
+                    <i class="icon-document-edit"></i>
+                    <span>{Show users}</span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <!--/ TITLE -->
+        <!-- BREADCRUMB -->
+        <ul id="breadcrumb">
+            <li>
+                <span class="entypo-home"></span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="/" title="Home">{Home}</a>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <span>{User rights}</span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="#" title="Show users">{Show users}</a>
+            </li>
+        </ul>
+        <!-- END OF BREADCRUMB -->
+        <div class="row" style="padding:0 30px;">
+            <div class="col-sm-12">
+                <div class="nest" id="inlineClose">
+                    <div class="title-alt">
+                        <h6>{List of users}</h6>
+                        <!--
+                        <div class="titleClose">
+                            <a class="gone" href="#inlineClose">
+                                <span class="entypo-cancel"></span>
+                            </a>
+                        </div> -->
+                        <div class="titleToggle">
+                            <a class="nav-toggle-alt" href="#inline">
+                                <span class="entypo-up-open"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="body-nest" id="inline">
+                        <div class="users_table simple_info_table" style="width:100%; clear:both">
+                            <div class="form_center" style="width:80%;">
+                                <form role="form" class="form-inline">
+                                    <div class="form-group">
+                                        <label for="departments">{Select department}</label><br>
+                                        <select id="departments" name="status" class="form-control">
+                                            <option value="" disabled>{Select department}</option>
+                                            <option value="0" selected>{All}</option>
+                                            <option value="1">{It Department}</option>
+                                            <option value="2">{Production}</option>
+                                            <option value="4">{Packaging}</option>
+                                            <option value="3">{Sales}</option>
+                                            <option value="5">{Management}</option>
+                                        </select>
+                                    </div>
+                                    <button class="btn btn-info" id="show-by-departemnts" style="MARGIN-TOP: 23px;">{Show}</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="padding:0 30px;">
+                <div class="nest" id="validationClose">
+                    <div class="body-nest" id="inline">
+                        <div id="table-response">
+                            <table style="width:100%;" class="table table-bordered all_orders">
+                                <thead>
+                                    <tr>
+                                        <th>{Name}</th>
+                                        <th>{Mail}</th>
+                                        <th style="width: 150px;">{Actions}</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- BEGIN {users} AS user -->
+                                    <tr>
+                                        <td>{user.name}</td>
+                                        <td>{user.email}</td>
+                                        <td>
+                                            <a href="/user/add_edit_profile/{user.id}" class="btn btn-default btn-block" title="User">{Profile}</a>
+                                            <a href="/permisions/user_view/{user.id}" class="btn btn-default btn-block" title="User">{Permissions}</a>
+                                        </td>
+                                    </tr>
+                                    <!-- END user -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

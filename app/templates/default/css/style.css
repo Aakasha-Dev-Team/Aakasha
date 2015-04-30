@@ -1,0 +1,283 @@
+.footer {
+    border-top: 1px solid #e5e5e5;
+    color: #777;
+    padding-top: 19px;
+}
+.nav-tabs>li>a:hover,
+.nav-tabs.nav-justified>.active>a,
+.nav-tabs.nav-justified>.active>a:hover,
+.nav-tabs.nav-justified>.active>a:focus,
+.nav-tabs.nav-justified>li>a:hover,
+.nav-tabs.nav-justified>li>a:focus,
+.nav-tabs.nav-justified .active a {
+	background: #999;
+	color: #fff;
+}
+.nav-tabs.nav-justified {
+	margin-bottom: -1px;
+}
+.navbar-default {
+	border-bottom: 2px solid #999;
+	border-top: none;
+	height: 54px;
+	margin-bottom: 100px;
+	background: #999;
+}
+.navbar-default .navbar-brand {
+	color:#363636;
+	padding: 0 15px;
+	font-size: 14px;
+	line-height: 50px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.dropdown-menu>li,
+.navbar-nav>li {
+	color:#363636;
+	padding:0;
+	font-size: 14px;
+	line-height: 14px;
+}
+.dropdown-menu>li>a,
+.navbar-nav>li>a {
+	padding: 0 15px;
+	line-height: 50px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000 !important;
+	border-bottom: 2px solid transparent;
+}
+.navbar-default .navbar-nav>.dropdown.open:hover ul li:hover a,
+.navbar-default .navbar-nav>.dropdown.open:hover ul li:focus a,
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>li:hover a,
+.navbar-default .navbar-nav>li:focus a,
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+	color: #e2b227 !important;
+	border-bottom: 2px solid #202020;
+	padding-bottom: 4px !important;
+	background: #fff !important;
+}
+.navbar-default .navbar-nav>.dropdown.open:hover ul li a {
+	color: #363636 !important;
+	border-bottom: 2px solid transparent;
+	padding-bottom: 0 !important;
+}
+.navbar-default .navbar-nav>.dropdown.open:hover ul li:hover a,
+.navbar-default .navbar-nav>.dropdown.open:hover ul li:focus a {
+	color: #e2b227 !important;
+	border-bottom: 2px solid #202020;
+	padding-bottom: 0 !important;
+}
+.btn-default {
+	color: #fff;
+	background: #999;
+}
+.upload_file {
+	position: relative;
+}
+.file_button {
+	position: absolute;
+	top: 26px;
+	left: 1px;
+}
+#file {
+	margin-left: 22px;
+	margin-top: 6px;
+}
+.form-group.upload_file label{
+	margin-bottom: 10px;
+}
+.fileUpload {
+	position: relative;
+	overflow: hidden;
+	/*margin: 10px;*/
+}
+.fileUpload input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#uploadFile {
+	cursor: default;
+	padding: 5px;
+	line-height: 20px;
+	width: 60%;
+}
+.checkbox_orders {
+	float: left;
+	display: inline-block;
+	margin-top: 8px !important;
+}
+#value_shipment {
+	display: inline-block;
+	float: right;
+	width: 98%;
+	background: #ddd;
+}
+.navbar-nav>li>.dropdown-menu {
+	margin-top: -2px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	box-shadow: none;
+	border: 2px solid #999;
+	border-top: none;
+	padding-bottom: 0;
+}
+.navbar-default .navbar-nav>.active>a {
+	padding-bottom: 4px !important;
+}
+.navbar-default .navbar-nav>.active {
+	background: #fff
+}
+table.order_single_view tr > th,
+table.order_single_view tr > td {
+	padding: 5px;
+}
+table.order_single_view tr > th {
+	width: 24%;
+	min-width: 260px;
+}
+table.order_single_view td,
+table.order_single_view th,
+table.order_single_view tr {
+	border: 1px solid #000;
+}
+table.order_single_view tr.actions_row td,
+table.order_single_view tr.actions_row th,
+table.order_single_view tr.actions_row {
+	border: none !important;
+}
+.all_orders.simple_info_table td,
+.all_orders.simple_info_table th,
+.all_orders.simple_info_table tr {
+	padding: 5px;
+	border: 1px solid #000;
+}
+.orders_dates.col-md-8 .col-md-6,
+.orders_dates.col-md-8 {
+	padding-left: 0;
+}
+.orders_dates label {
+	margin-bottom: 0;
+}
+.orders_dates.col-md-8 {
+	margin-bottom: 10px;
+	clear: both;
+}
+.orders_dates .input-append input {
+	font-size: 14px;
+	line-height: 20px;
+	padding: 5px;
+	vertical-align: middle;
+	height: 31px;
+}
+.orders_dates .input-append .add-on {
+	height: 31px;
+}
+tr.actions_row.headers td {
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 0px;
+	padding-bottom: 15px;
+	font-size: 16px;
+}
+.orders_dates.simple_info_table > .col-md-8 {
+	padding-left: 0;
+	margin-bottom: 14px;
+}
+.orders_dates.simple_info_table > .col-md-8 .col-md-4 {
+	padding-left: 0;
+}
+.generate_orders .input-append .add-on,
+.orders_dates .input-append .add-on {
+height: 31px;
+background: #999;
+display: inline-block;
+vertical-align: middle;
+margin-left: -5px;
+border-radius: 0px 6px 6px 0px;
+}
+i.glyphicon.glyphicon-calendar.icon-calendar {
+padding-top: 8px;
+padding-left: 9px;
+padding-right: 9px;
+}
+.dynatable-search {
+float: right;
+margin-top: 4px;
+}
+span.dynatable-per-page {
+	margin-top: 6px;
+	display: inline-block;
+}
+.dynatable-active-page {
+	background: #999;
+	border-radius: 5px;
+	color: #fff;
+}
+th.internal,
+td.internal,
+td.note_en,
+th.note_en {
+	padding-top: 15px !important;
+}
+.internal textarea,
+.note_en textarea {
+	width: 85%;
+	margin-left: 10px;
+	margin-right: 10px;
+	resize: none;
+	border-radius: 6px;
+	border-color: #999;
+	box-shadow: 0px 0px 8px #999;
+}
+.internal textarea:disabled,
+.note_en textarea:disabled {
+	background: transparent;
+	border: none;
+	resize: none;
+	box-shadow: none;
+}
+.internal input,
+.note_en input{
+	display: inline-block;
+	float: left;
+	margin-top: 6px;
+}
+.internal .btn,
+.note_en .btn {
+	float: right;
+	margin-right: 15px;
+	margin-top: 8px;
+}
+.actions_row.buttons {
+	margin-top: 0px;
+}
+.btn-default.disabled, .btn-default[disabled], fieldset[disabled] .btn-default, .btn-default.disabled:hover, .btn-default[disabled]:hover, fieldset[disabled] .btn-default:hover, .btn-default.disabled:focus, .btn-default[disabled]:focus, fieldset[disabled] .btn-default:focus, .btn-default.disabled.focus, .btn-default[disabled].focus, fieldset[disabled] .btn-default.focus, .btn-default.disabled:active, .btn-default[disabled]:active, fieldset[disabled] .btn-default:active, .btn-default.disabled.active, .btn-default[disabled].active, fieldset[disabled] .btn-default.active {
+	background-color: #fff !important;
+	border-color: #ccc !important;
+	color: #ccc !important;
+	cursor: not-allowed !important;
+}
+#table-details .btn-group-xs {
+	margin-top: 9px;
+}
+#table-details .btn-group-xs button {
+	margin-right: 5px;
+}
+.display-invoices-history table {
+	width: 70%;
+	margin: 0 auto;
+}

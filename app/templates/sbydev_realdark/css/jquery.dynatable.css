@@ -1,0 +1,179 @@
+/*
+ * jQuery Dynatable plugin 0.3.1
+ *
+ * Copyright (c) 2014 Steve Schwartz (JangoSteve)
+ *
+ * Dual licensed under the AGPL and Proprietary licenses:
+ *   http://www.dynatable.com/license/
+ *
+ * Date: Tue Jan 02 2014
+ */
+th a {
+  color: #000000;
+}
+th a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.dynatable-search {
+  float: right;
+  margin-bottom: 10px;
+}
+.table-bordered {
+  clear: both;
+}
+.dynatable-pagination-links {
+  float: left;
+  padding-left: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.dynatable-pagination-links li a {
+  border-right: 1px solid #ccc;
+}
+.dynatable-pagination-links li:last-child a {
+  border-right: none;
+}
+.dynatable-record-count {
+  display: block;
+  padding: 5px 0;
+  float: right;
+}
+#table-details {
+  clear: both;
+}
+.dynatable-pagination-links li:first-child {
+  display: none;
+}
+.dynatable-pagination-links span,
+.dynatable-pagination-links li {
+  display: inline-block;
+}
+
+.dynatable-page-link,
+.dynatable-page-break {
+  display: block;
+  padding: 5px 7px;
+}
+
+.dynatable-page-link {
+  cursor: pointer;
+}
+
+.dynatable-active-page,
+.dynatable-disabled-page {
+  cursor: text;
+}
+.dynatable-active-page:hover,
+.dynatable-disabled-page:hover {
+  text-decoration: none;
+}
+
+.dynatable-active-page {
+  background: #eeeeee;
+  color: #555;
+}
+.dynatable-page-link:hover {
+  background: #eeeeee;
+}
+.dynatable-active-page:hover {
+  color: #555;
+}
+.dynatable-disabled-page,
+.dynatable-disabled-page:hover {
+  background: none;
+  color: #999;
+}
+th,
+.dynatable-head {
+  font-weight: normal !important;
+}
+tr:hover,
+tr:focus {
+  background: #af9574;
+}/*
+.datepicker-days tr:hover td,
+.datepicker-days tr:focus td,
+.datepicker-days tr:hover,
+.datepicker-days tr:focus {
+  background: #fff;
+  color: #9ea7b3;
+} */
+th a {
+  color: #9ea7b3!important;
+}
+tr:hover td,
+tr:focus td {
+ /* background: #e1d09a; */
+  color: #333;
+  cursor: pointer;
+}
+.order_single_view td:hover,
+.order_single_view td:focus,
+.order_single_view tr:hover,
+.order_single_view tr:focus,
+.order_single_view tr:hover td,
+.order_single_view tr:focus td{
+  background: #fff !important;
+  color: #9ea7b3!important;
+  cursor: default !important;
+}
+thead tr:hover,
+thead tr:focus {
+  background: #fff;
+}
+
+.order_single_view tr.actions_row.headers {
+  border: none;
+}
+.order_single_view tr.actions_row.headers td:hover,
+.order_single_view tr.actions_row.headers th:focus,
+.order_single_view tr.actions_row.headers td,
+.order_single_view tr.actions_row.headers th{
+  font-weight: bold;
+  margin-top: 20px;
+  color: #333 !important;
+  border: none;
+  line-height: 40px !important;
+  cursor: default !important;
+}
+.order_single_view tr.actions_row.headers:hover,
+.order_single_view tr.actions_row.headers:focus{
+  color: #333 !important;
+  cursor: default !important;
+}
+
+.order_single_view tr th {
+  border-right: 1px solid #ccc;
+}
+.order_single_view tr {
+  border: 1px solid #ccc;
+}
+.order_single_view tr th,
+.order_single_view tr td {
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 20px !important;
+}
+.order_single_view input[type="checkbox"] {
+  float: left;
+  margin-right: 10px;
+}
+.order_single_view textarea:disabled {
+  border: none;
+  opacity: 1;
+}
+.order_single_view textarea {
+  border: 2px solid #ddd;
+  resize:vertical;
+  margin-top:2px;
+  width: 97%;
+  border-radius: 4px;
+}
+.order_single_view .save_note {
+  display: inline-block;
+  float: right;
+  margin-right: 1%;
+  margin-bottom: 5px;
+}

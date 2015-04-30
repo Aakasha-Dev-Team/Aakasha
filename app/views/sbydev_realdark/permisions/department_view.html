@@ -1,0 +1,355 @@
+<div class="wrap-fluid" style="width: auto; margin-left: 250px;">
+    <div class="container-fluid paper-wrap bevel tlbr">
+        <!--TITLE -->
+        <div class="row">
+            <div id="paper-top">
+                <div class="col-sm-12">
+                    <h2 class="tittle-content-header">
+                    <i class="icon-document-edit"></i>
+                    <span>{Show users}</span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <!--/ TITLE -->
+        <!-- BREADCRUMB -->
+        <ul id="breadcrumb">
+            <li>
+                <span class="entypo-home"></span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="/" title="Home">{Home}</a>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <span>{User rights}</span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="#" title="Show users">{Show users}</a>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="#" title="Show users">{UserName}</a>
+            </li>
+        </ul>
+        <!-- END OF BREADCRUMB -->
+        <div class="row" style="padding:0 30px;">
+            <div class="col-sm-12">
+                <div class="nest" id="inlineClose">
+                    <div class="title-alt">
+                        <h6>{Department}</h6>
+                        <!--
+                        <div class="titleClose">
+                            <a class="gone" href="#inlineClose">
+                                <span class="entypo-cancel"></span>
+                            </a>
+                        </div> -->
+                        <div class="titleToggle">
+                            <a class="nav-toggle-alt" href="#inline">
+                                <span class="entypo-up-open"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="body-nest user_rights_view" id="inline">
+                        <div class="col-sm-6">
+                            <h4>{History}</h4>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+                                    <label for="invoices_history">{Invoices history}</label>&nbsp;<i>({allowes user to see created invoices})</i>
+                                </div>
+                                <div class="col-sm-4">
+                                    <form id="invoices_history">
+                                        <input type="radio" name="invoices_histoy" value="no permission" id="invoice_history_none" {c_History_invoices_history_none}>&nbsp;<label for="invoice_history_none">{No}</label>&nbsp;&nbsp;
+                                        <input type="radio" name="invoices_histoy" value="view" id="invoice_history_view" {c_History_invoices_history_view}>&nbsp;<label for="invoice_history_view">{View}</label>&nbsp;&nbsp;
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+                                    <label for="logs_history">{Logs}</label>&nbsp;<i>({allowes user to see available items})</i>
+                                </div>
+                                <div class="col-sm-4">
+                                    <form id="logs_history">
+                                        <input type="radio" name="logs_history" value="no permission" id="logs_history_none" {c_History_logs_none}>&nbsp;<label for="logs_history_none">{No}</label>&nbsp;&nbsp;
+                                        <input type="radio" name="logs_history" value="view" id="logs_history_view" {c_History_logs_view}>&nbsp;<label for="logs_history_view">{View}</label>&nbsp;&nbsp;
+                                    </form>
+                                </div>
+                            </div>
+                            <!--<div class="col-sm-12 nopadding">-->
+                                <!--<div class="col-sm-8">-->
+                                    <!--<label for="departments_history">{Departments}</label>&nbsp;<i>({allowes user to see actions of users in departments})</i>-->
+                                <!--</div>-->
+                                <!--<div class="col-sm-4">-->
+                                    <!--<form id="departments_history">-->
+                                        <!--<input type="radio" name="departments" value="no permission" id="department_history_none" {c_History_departments_none}>&nbsp;<label for="department_history_none">{No}</label>&nbsp;&nbsp;-->
+                                        <!--<input type="radio" name="departments" value="view" id="department_history_view" {c_History_departments_view}>&nbsp;<label for="department_history_view">{View}</label>&nbsp;&nbsp;-->
+                                    <!--</form>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="col-sm-12 nopadding">-->
+                                <!--<div class="col-sm-8">-->
+                                    <!--<label for="orders_history">{Orders}</label>&nbsp;<i>({allowes users to see the actions of users for orders})</i>-->
+                                <!--</div>-->
+                                <!--<div class="col-sm-4">-->
+                                    <!--<form id="orders_history">-->
+                                        <!--<input type="radio" name="orders" value="no permission" id="orders_history_none" {c_History_orders_none}>&nbsp;<label for="orders_history_none">{No}</label>&nbsp;&nbsp;-->
+                                        <!--<input type="radio" name="orders" value="view" id="orders_history_view" {c_History_orders_view}>&nbsp;<label for="orders_history_view">{View}</label>&nbsp;&nbsp;-->
+                                    <!--</form>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+
+                                </div>
+                                <div class="col-sm-4">
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+                                    
+                                </div>
+    
+                                <div class="col-sm-4">
+
+                                </div>
+                            </div>
+                            <div style="clear: both"></div>
+                            
+                            <h4>{Invoices}</h4>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+                                    <label for="invoices_show_orders">{Show orders}</label>&nbsp;<i>({allowes user to see orders})</i>
+                                </div>
+                                <div class="col-sm-4">
+                                    <form id="invoices_show_orders">
+                                        <input type="radio" name="show_orders" value="no permission" id="inv_show_orders_none" {c_Invoices_show_orders_none}>&nbsp;<label for="inv_show_orders_none">{No}</label>&nbsp;&nbsp;
+                                        <input type="radio" name="show_orders" value="view" id="inv_show_orders_view" {c_Invoices_show_orders_view}>&nbsp;<label for="inv_show_orders_view">{View}</label>&nbsp;&nbsp;
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+                                    <label for="invoices_generate">{Generate}</label>&nbsp;<i>({allowes user to generate invoices})</i>
+                                </div>
+                                <div class="col-sm-4">
+                                    <form id="invoices_generate">
+                                        <input type="radio" name="generate" value="no permission" id="inv_gnr_orders_none" {c_Invoices_generate_none}>&nbsp;<label for="inv_gnr_orders_none">{No}</label>&nbsp;&nbsp;
+                                        <input type="radio" name="generate" value="view" id="inv_gnr_orders_view" {c_Invoices_generate_view}>&nbsp;<label for="inv_gnr_orders_view">{View}</label>&nbsp;&nbsp;
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+                                    
+                                </div>
+                                <div class="col-sm-4">
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+
+                                </div>
+                                <div class="col-sm-4">
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+                                    
+                                </div>
+    
+                                <div class="col-sm-4">
+
+                                </div>
+                            </div>
+
+                            <h4>{Storehouse}</h4>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+                                    <label for="invoices_generate">{Items}</label>&nbsp;<i>({allowes user to see available items_products})</i>
+                                </div>
+                                <div class="col-sm-4">
+                                    <form id="storehouse_items">
+                                        <input type="radio" name="items" value="no permission" id="storehouse_items_none" {c_Storehouse_items_none}>&nbsp;<label for="storehouse_items_none">{No}</label>&nbsp;&nbsp;
+                                        <input type="radio" name="items" value="view" id="storehouse_items_view" {c_Storehouse_items_view}>&nbsp;<label for="storehouse_items_view">{View}</label>&nbsp;&nbsp;
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+
+                                </div>
+                                <div class="col-sm-4">
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+
+                                </div>
+                                <div class="col-sm-4">
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+
+                                </div>
+
+                                <div class="col-sm-4">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <h4>{Orders}</h4>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+                                    <label for="upload_orders">{Upload orders}</label>&nbsp;<i>({allowes user to upload new orders})</i>
+                                </div>
+                                <div class="col-sm-4">
+                                    <form id="upload_orders">
+                                        <input type="radio" name="upload_order" value="no permission" id="ord_upl_ord_none" {c_Orders_upload_order_none}>&nbsp;<label for="ord_upl_ord_none">{No}</label>&nbsp;&nbsp;
+                                        <input type="radio" name="upload_order" value="view" id="ord_upl_ord_view" {c_Orders_upload_order_view}>&nbsp;<label for="ord_upl_ord_view">{View}</label>&nbsp;&nbsp;
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+                                    <label for="upload_customers">{Upload customers}</label>&nbsp;<i>({allowes user to upload new customers})</i>
+                                </div>
+                                <div class="col-sm-4">
+                                    <form id="upload_customers">
+                                        <input type="radio" name="upload_customer" value="no permission" id="ord_upl_cust_ord_none" {c_Orders_upload_customers_none}>&nbsp;<label for="ord_upl_ord_none">{No}</label>&nbsp;&nbsp;
+                                        <input type="radio" name="upload_customer" value="view" id="ord_upl_cust_ord_view" {c_Orders_upload_customers_view}>&nbsp;<label for="ord_upl_ord_view">{View}</label>&nbsp;&nbsp;
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+                                    <label for="see_orders">{See orders}</label>&nbsp;<i>({allowes user to see orders})</i>
+                                </div>
+                                <div class="col-sm-4">
+                                    <form id="see_orders">
+                                        <input type="radio" name="see_orders" value="no permission" id="ord_shw_ord_none" {c_Orders_see_orders_none}>&nbsp;<label for="ord_shw_ord_none">{No}</label>&nbsp;&nbsp;
+                                        <input type="radio" name="see_orders" value="view" id="ord_shw_ord_view" {c_Orders_see_orders_view}>&nbsp;<label for="ord_shw_ord_view">{View}</label>&nbsp;&nbsp;
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+                                    <label for="edit_order">{Edit order}</label>&nbsp;<i>({allowes user to write and edit comments})</i>
+                                </div>
+                                <div class="col-sm-4">
+                                    <form id="edit_order">
+                                        <input type="radio" name="edit_order" value="view" id="ord_edt_ord_view" {c_Orders_edit_order_view}>&nbsp;<label for="ord_edt_ord_view">{View}</label>&nbsp;&nbsp;
+                                        <input type="radio" name="edit_order" value="edit" id="ord_edt_ord_edit" {c_Orders_edit_order_edit}>&nbsp;<label for="ord_edt_ord_edit">{View & Edit}</label>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+                                    <label for="generate_order">{Generate single order}</label>&nbsp;<i>({allowes user to generate list with single orders})</i>
+                                </div>
+                                <div class="col-sm-4">
+                                    <form id="generate_order">
+                                        <input type="radio" name="generate_single_order" value="no permission" id="ord_gnr_sngl_ord_none" {c_Orders_generate_single_order_none}>&nbsp;<label for="ord_gnr_sngl_ord_none">{No}</label>&nbsp;&nbsp;
+                                        <input type="radio" name="generate_single_order" value="view" id="ord_gnr_sngl_ord_view" {c_Orders_generate_single_order_view}>&nbsp;<label for="ord_gnr_sngl_ord_view">{View}</label>&nbsp;&nbsp;
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+                                    <label for="generate_orders">{Generate orders list}</label>&nbsp;<i>({allowes user to generate list with orders})</i>
+                                </div>
+    
+                                <div class="col-sm-4">
+                                    <form id="generate_orders">
+                                        <input type="radio" name="generate_orders_list" value="no permission" id="ord_gnr_lst_ord_none" {c_Orders_generate_orders_list_none}>&nbsp;<label for="ord_gnr_lst_ord_none">{No}</label>&nbsp;&nbsp;
+                                        <input type="radio" name="generate_orders_list" value="view" id="ord_gnr_lst_ord_view" {c_Orders_generate_orders_list_view}>&nbsp;<label for="ord_gnr_lst_ord_view">{View}</label>&nbsp;&nbsp;
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+                                    <label for="display_adress_more">{Display more than one adrees}</label>&nbsp;<i>({allowes user to see this information})</i>
+                                </div>
+    
+                                <div class="col-sm-4">
+                                    <form id="display_adress_more">
+                                        <input type="radio" name="display_adress_more" value="no permission" id="display_adress_more_none" {c_Orders_display_adress_more_none}>&nbsp;<label for="display_adress_more_none">{No}</label>&nbsp;&nbsp;
+                                        <input type="radio" name="display_adress_more" value="view" id="display_adress_more_view" {c_Orders_display_adress_more_view}>&nbsp;<label for="display_adress_more_view">{View}</label>&nbsp;&nbsp;
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div style="clear: both"></div>
+                            
+                            <h4>{Messages Mail}</h4>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+                                    <label for="messages_clients">{Clients}</label>&nbsp;<i>({allowes user to send autogenerated mails to clients})</i>
+                                </div>
+                                <div class="col-sm-4">
+                                    <form id="messages_clients">
+                                        <input type="radio" name="clients" value="no permission" id="clnts_bulg_msg_none" {c_Messages_clients_none}>&nbsp;<label for="clnts_bulg_msg_none">{No}</label>&nbsp;&nbsp;
+                                        <input type="radio" name="clients" value="edit" id="clnts_bulg_msg_edit" {c_Messages_clients_view}>&nbsp;<label for="clnts_bulg_msg_edit">{Yes}</label>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+                                    <label for="messages_departments">{Departments}</label>&nbsp;<i>({allowes user to send message to all users from selected department})</i>
+                                </div>
+                                <div class="col-sm-4">
+                                    <form id="messages_departments">
+                                        <input type="radio" name="departments" value="no permission" id="dpnts_bulg_msg_none" {c_Messages_departments_none}>&nbsp;<label for="dpnts_bulg_msg_none">{No}</label>&nbsp;&nbsp;
+                                        <input type="radio" name="departments" value="edit" id="dpnts_bulg_msg_edit" {c_Messages_departments_view}>&nbsp;<label for="dpnts_bulg_msg_edit">{Yes}</label>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+                                    
+                                </div>
+                                <div class="col-sm-4">
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+
+                                </div>
+                                <div class="col-sm-4">
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 nopadding">
+                                <div class="col-sm-8">
+                                    
+                                </div>
+    
+                                <div class="col-sm-4">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <button id="save" class="btn btn-primary">{Save}</button>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>

@@ -1,0 +1,103 @@
+<div class="wrap-fluid" style="width: auto; margin-left: 250px;">
+<div class="container-fluid paper-wrap bevel tlbr">
+<!--TITLE -->
+<div class="row">
+    <div id="paper-top">
+        <div class="col-sm-12">
+            <h2 class="tittle-content-header">
+            <i class="icon-document-edit"></i>
+            <span>{Bookmarks}</span>
+            </h2>
+        </div>
+    </div>
+</div>
+<!--/ TITLE -->
+<!-- BREADCRUMB -->
+<ul id="breadcrumb">
+    <li>
+        <span class="entypo-home"></span>
+    </li>
+    <li>
+        <i class="fa fa-lg fa-angle-right"></i>
+    </li>
+    <li>
+        <a href="/" title="Home">{Home}</a>
+    </li>
+    <li>
+        <i class="fa fa-lg fa-angle-right"></i>
+    </li>
+    <li>
+        <span>{User}</span>
+    </li>
+    <li>
+        <i class="fa fa-lg fa-angle-right"></i>
+    </li>
+    <li>
+        <a href="#" title="Bookmarks">{Bookmarks}</a>
+    </li>
+</ul>
+<!-- END OF BREADCRUMB -->
+<div class="row" style="padding:0 30px;">
+    <div class="col-sm-12">
+        <div class="nest" id="inlineClose">
+            <div class="title-alt">
+                <h6>{Bookmarks}</h6>
+                <!--
+                <div class="titleClose">
+                    <a class="gone" href="#inlineClose">
+                        <span class="entypo-cancel"></span>
+                    </a>
+                </div> -->
+                <div class="titleToggle">
+                    <a class="nav-toggle-alt" href="#inline">
+                        <span class="entypo-up-open"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="body-nest col-md-12" id="inline">
+                <div class="orders_dates simple_info_table col-md-12">
+                    <div class="form_center col-md-12">
+                        <form role="form" class="col-md-6">
+                            <div class="input_fields_wrap col-md-offset-5 col-md-12">
+                                <div class="">
+                                    <span class="col-md-3 form-group">
+                                        <input type="text" class="form-control" name="bookmarks_name[]" value="{default_name}" placeholder="{Name}">
+                                    </span>
+                                    <span class="col-md-7 form-group">
+                                        <input type="text" class="form-control" name="bookmarks_link[]" value="{default_link}" placeholder="{Link}">
+                                    </span>
+                                </div>
+                                
+                                <!-- IF {bookmarks_count} > 1 -->
+                                    <!-- BEGIN {bookmarks_data} AS bookmark -->
+                                    
+                                        <div>
+                                            <span class="col-md-3 form-group">
+                                                <input type="text" class="form-control" name="bookmarks_name[]" value="{bookmark.name}" placeholder="{Name}"/>
+                                            </span>
+                                            <span class="col-md-7 form-group">
+                                                <input type="text" class="form-control" name="bookmarks_link[]" value="{bookmark.link}" placeholder="{Link}"/>
+                                            </span>
+                                            <span class="col-md-2">
+                                                <a href="#" class="remove_field">{Remove}</a>
+                                            </span>
+                                        </div>
+                                    
+                                    <!-- END bookmark -->
+                                <!--END-->
+                            </div>
+                            <span class="col-md-12 col-md-offset-5">
+                                <span class="col-md-2 form-group">
+                                    <button id="save" class="add_field_button btn btn-primary">{Save}</button>
+                                </span>
+                                <span class="col-md-7 form-group">
+                                    <button id="add" class="add_field_button btn btn-default">{Add More Bookmarks}</button>
+                                </span>
+                            </span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

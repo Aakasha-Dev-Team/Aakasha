@@ -1,0 +1,92 @@
+<div class="wrap-fluid" style="width: auto; margin-left: 250px;">
+    <div class="container-fluid paper-wrap bevel tlbr">
+        <!--TITLE -->
+        <div class="row">
+            <div id="paper-top">
+                <div class="col-sm-12">
+                    <h2 class="tittle-content-header">
+                    <i class="icon-media-record"></i>
+                    <span>{My profile}</span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <!--/ TITLE -->
+        <!-- BREADCRUMB -->
+        <ul id="breadcrumb">
+            <li>
+                <span class="entypo-home"></span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="/" title="Home">{Home}</a>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <span>{My profile}</span>
+            </li>
+        </ul>
+        <!-- END OF BREADCRUMB -->
+        <div class="row" style="padding:0 30px;">
+            <div class="col-sm-12">
+                <div class="well profile user_profile">
+                    <div class="col-sm-12">
+                        <div class="col-xs-12 col-sm-4 text-center">
+                            <ul class="list-group">
+                                <li class="list-group-item text-left">
+                                <span class="entypo-user"></span>&nbsp;&nbsp;{Profile}</li>
+                                <li class="list-group-item text-center">
+                                    <img src="/uploads/avatars/{avatar}" alt="" class="img-circle img-responsive img-profile">
+                                </li>
+                                <li class="list-group-item text-right">
+                                    <span class="pull-left">
+                                    <strong>{Joined the company}</strong>
+                                </span>{joined_in_firm}</li>
+                                <li class="list-group-item text-right">
+                                    <span class="pull-left">
+                                    <strong>{Last seen}</strong>
+                                </span>{day_time_last_signin}</li>
+                                <li class="list-group-item text-right">
+                                    <span class="pull-left">
+                                    <strong>{Birthday}</strong>
+                                </span>{birthday}</li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 profile-name">
+                            <span class="pull-right"><a href="/user/add_edit_profile/{id}" class="btn btn-info">{Edit profile}</a></span>
+                            <h2>{username}</h2>
+                            <hr>
+                            <dl class="dl-horizontal-profile">
+                                <dt>Email</dt>
+                                <dd><a href="mailto:milena@aakasha.com">{email}</a></dd>
+                                <dt>{Personal phone}</dt>
+                                <dd><a href="tel:+359888223809">{phone}</a></dd>
+                                <dt>{Job position}</dt>
+                                <dd>{position_in_firm}</dd>
+                                <dt>{Department}</dt>
+                                <dd>{department}</dd>
+                                </dd>
+                            </dl>
+                            <hr>
+                            <h5>
+                            <span class="entypo-arrows-ccw"></span>&nbsp;&nbsp;{Recent Activities}</h5>
+                            <div class="table-responsive">
+                                <table class="table table-hover table-striped table-condensed">
+                                    <tbody>
+                                        <!-- BEGIN {logs} AS log -->
+                                            <tr>
+                                                <td><i class="pull-right fa fa-edit"></i> {log.date} - {log.action}</td>
+                                            </tr>
+                                        <!-- END log -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

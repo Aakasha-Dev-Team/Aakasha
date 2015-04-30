@@ -1,0 +1,107 @@
+<div class="wrap-fluid" style="width: auto; margin-left: 250px;">
+    <div class="container-fluid paper-wrap bevel tlbr">
+        <!--TITLE -->
+        <div class="row">
+            <div id="paper-top">
+                <div class="col-sm-3">
+                    <h2 class="tittle-content-header">
+                    <i class="icon-document-edit"></i>
+                    <span>{Invoice generation}</span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <!--/ TITLE -->
+        <!-- BREADCRUMB -->
+        <ul id="breadcrumb">
+            <li>
+                <span class="entypo-home"></span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="/" title="Home">{Home}</a>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <span>{Invoices}</span>
+            </li>
+            <li>
+                <i class="fa fa-lg fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="#" title="Invoice generation">{Invoice generation}</a>
+            </li>
+        </ul>
+        <!-- END OF BREADCRUMB -->
+        <div class="row" style="padding:0 30px;">
+            <div class="col-sm-12">
+                <div class="nest" id="validationClose">
+                    <div class="title-alt">
+                        <h6>{Invoice generation}</h6>
+                        <!--
+                        <div class="titleClose">
+                            <a class="gone" href="#validationClose">
+                                <span class="entypo-cancel"></span>
+                            </a>
+                        </div>
+                        -->
+                        <div class="titleToggle">
+                            <a class="nav-toggle-alt" href="#validation">
+                                <span class="entypo-up-open"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="body-nest" id="validation">
+                        <div class="form_center">
+                            <form role="form">
+                                <fieldset>
+                                    <div class="control-group error">
+                                        <label class="control-label" for="order_number">{Enter the order number}</label>
+                                        <div class="controls">
+                                            <input type="number" id="order_number" class="order_number form-control" name="order_number" placeholder="{Enter the order number}"></input><label for="order_number" id="show-id-error" generated="true" class="error"><strong>{Warning!}</strong> {There is no such order number.}</label>
+                                        </div>
+                                    </div>
+                                    <div class="control-group error">
+                                        <label class="control-label" for="packages_number">{Select the number of packages}</label>
+                                        <div class="controls">
+                                            <select id="packages_number" class="packages_number form-control" name="packages" placeholder="{Select the number of packages}"><label for="packages" generated="true" class="error">This field is required.</label>
+                                            <option selected>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                            <option>7</option>
+                                            <option>8</option>
+                                            <option>9</option>
+                                            <option>10</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="control-group error">
+                                    <label class="control-label" for ="weight">{Enter the weight of the packages}</label>
+                                    <div class="controls">
+                                        <input type="text" id="weight" class="weight form-control" name="weight" placeholder="{Enter the weight of the packages}"></input><!--<label for="weight" generated="true" class="error">This field is required.</label>-->
+                                    </div>
+                                </div>
+                                <div class="control-group error">
+                                    <label class="control-label" for ="value_shipment">{Total Value of Shipment}</label>
+                                    <div class="controls form-inline">
+                                        <input type="checkbox" class="checkbox_orders" style="margin-top: 12px;"/>
+                                        
+                                        <input type="text" id="value_shipment" class="weight form-control" name="total_value" placeholder="{Enter the weight of the packages}" disabled style="width: 98%;float: right;"></input><!--<label for="value_shipment" generated="true" class="error">This field is required.</label>-->
+                                    </div>
+                                </div>
+                                <div class="form-actions" style="margin:20px 0 0 0;">
+                                    <button type="button" id="close" name="close" class="btn btn-warning">{Close}</button>
+                                    <button type="button" id="generate" name="generate" class="btn btn-primary">{Generate invoice}</button>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
