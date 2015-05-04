@@ -122,6 +122,7 @@ Router::any('reports/save', '\controllers\ReportController@saveReport');
 Router::any('reports/saved', '\controllers\ReportController@viewReports');
 Router::any('reports/delete/(:num)', '\controllers\ReportController@deleteReport');
 Router::any('reports/details/(:num)', '\controllers\ReportController@showReport');
+Router::any('reports/edit/(:num)', '\controllers\ReportController@editReport');
 
 //Log
 Router::any('history/log', '\controllers\LogController@index');
